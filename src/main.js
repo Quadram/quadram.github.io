@@ -187,7 +187,7 @@ async function loadTranslations() {
     );
     const parsed = JSON.parse(new TextDecoder().decode(rawBytes));
 
-    // Support both the new wrapper format { date, strings: [] } and the legacy flat array
+    // Support the wrapper format { date, strings: [] } and the original flat array.
     if (Array.isArray(parsed)) {
       state.translations = parsed;
     } else if (parsed && Array.isArray(parsed.strings)) {
