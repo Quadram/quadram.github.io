@@ -1,34 +1,53 @@
-[
-  {
-    "key": "APP_TITLE",
-    "text": {
-      "en": "My App",
-      "fr": "Mon App",
-      "de": "Meine App"
+{
+  "date": "2026-03-26T16:13:50.844Z",
+  "string": [
+    {
+      "key": "APP_TITLE",
+      "text": {
+        "en": "My App",
+        "fr": "Mon App",
+        "de": "Meine App"
+      }
+    },
+    {
+      "key": "BUTTON_CANCEL",
+      "text": {
+        "en": "Cancel",
+        "fr": "Annuler",
+        "de": "Abbrechen"
+      }
+    },
+    {
+      "key": "BUTTON_CONFIRM",
+      "text": {
+        "en": "Confirm",
+        "fr": "Confirmer",
+        "de": "Bestätigen"
+      }
+    },
+    {
+      "key": "NEW",
+      "text": {
+        "en": "NEW",
+        "fr": "NOU",
+        "de": "NUE"
+      }
+    },
+    {
+      "key": "OTHER",
+      "text": {
+        "en": "OTHER",
+        "fr": "OTRUO",
+        "de": "OTRO"
+      }
+    },
+    {
+      "key": "TEST",
+      "text": {
+        "en": "Test",
+        "fr": "teste",
+        "de": "prueba"
+      }
     }
-  },
-  {
-    "key": "BUTTON_CANCEL",
-    "text": {
-      "en": "Cancel",
-      "fr": "Annuler",
-      "de": "Abbrechen"
-    }
-  },
-  {
-    "key": "BUTTON_CONFIRM",
-    "text": {
-      "en": "Confirm",
-      "fr": "Confirmer",
-      "de": "Bestätigen"
-    }
-  },
-  {
-    "key": "TEST",
-    "text": {
-      "en": "Test",
-      "fr": "teste",
-      "de": "prueba"
-    }
-  }
-]
+  ]
+}
