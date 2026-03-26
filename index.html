@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Translation Editor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ════════════════════════════════════════════════════════════════
+     LOGIN SCREEN
+════════════════════════════════════════════════════════════════ -->
+<div id="login-screen">
+  <div class="login-card">
+    <div class="login-logo">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"/>
+        <line x1="2" y1="12" x2="22" y2="12"/>
+        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+      </svg>
+      <h1>Translation Editor</h1>
+    </div>
+    <p class="login-subtitle">
+      Enter your GitHub Personal Access Token. You must be a member of
+      <strong id="org-name-display"></strong> to access this tool.
+    </p>
+
+    <div class="form-group">
+      <label class="label" for="pat-input">Personal Access Token</label>
+      <input type="password" id="pat-input" placeholder="github_pat_…" autocomplete="off" spellcheck="false" />
+    </div>
+
+    <div id="login-error" class="error" style="display:none; margin-bottom:14px;"></div>
+
+    <button class="btn btn-primary" id="login-btn" onclick="handleLogin()" style="width:100%; justify-content:center; padding:10px 16px; font-size:.95rem;">
+      Connect
+    </button>
+
+    <p class="login-hint">
+      Need a token? <a href="https://github.com/settings/tokens?type=beta" target="_blank" rel="noopener">GitHub → Settings → Developer settings → Fine-grained tokens</a><br/>
+      Required permissions: <strong>Contents: Read &amp; Write</strong> · <strong>Members: Read-only</strong>
+    </p>
+  </div>
+</div>
+
+
+<!-- ════════════════════════════════════════════════════════════════
+     NAVBAR
+════════════════════════════════════════════════════════════════ -->
+<nav id="navbar">
+  <div class="nav-brand">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="10"/>
+      <line x1="2" y1="12" x2="22" y2="12"/>
+      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+    </svg>
+    Translation Editor
+  </div>
+  <span class="nav-chip" id="nav-repo-label"></span>
+  <span id="unsaved-badge">● Unsaved changes</span>
+
+  <span class="nav-spacer"></span>
+
+  <div class="nav-user">
+    <svg width="15" height="15" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+      <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+    </svg>
+    <span id="nav-username"></span>
+  </div>
+  <button class="btn btn-ghost" style="font-size:.8rem; padding:4px 11px;" onclick="handleLogout()">Logout</button>
+</nav>
+
+
+<!-- ════════════════════════════════════════════════════════════════
+     TOOLBAR
+════════════════════════════════════════════════════════════════ -->
+<div id="toolbar">
+  <div class="search-wrap">
+    <svg class="search-icon" width="13" height="13" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.099zm-5.242 1.656a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11z"/>
+    </svg>
+    <input type="text" id="search-input" placeholder="Search keys or text…" aria-label="Search entries" oninput="handleSearch(this.value)" />
+  </div>
+
+  <span class="toolbar-sep"></span>
+
+  <label class="sort-label">
+    <input type="checkbox" id="sort-toggle" checked onchange="handleSortToggle(this.checked)" />
+    Sort A–Z
+  </label>
+
+  <span class="nav-spacer"></span>
+
+  <button class="btn btn-ghost" onclick="handleExport()" title="Download current translations as JSON">
+    <svg width="13" height="13" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+      <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+    </svg>
+    Export
+  </button>
+
+  <button class="btn btn-ghost" onclick="handleRefresh()" title="Reload from GitHub">
+    <svg width="13" height="13" fill="currentColor" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5.002 5.002 0 0 0 8 3zM3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9H3.1z"/>
+      <path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41zm-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9z"/>
+    </svg>
+    Refresh
+  </button>
+
+  <button class="btn btn-primary" onclick="openModal(null)">
+    <svg width="13" height="13" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+    </svg>
+    Add Entry
+  </button>
+
+  <button class="btn btn-success" id="save-btn" onclick="handleSave()">
+    <svg width="13" height="13" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M2 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9.5a1 1 0 0 0-1 1v7.293l2.646-2.647a.5.5 0 0 1 .708.708l-3.5 3.5a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L7.5 9.293V2a2 2 0 0 1 2-2H14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h2.5a.5.5 0 0 1 0 1H2z"/>
+    </svg>
+    Save to GitHub
+  </button>
+</div>
+
+
+<!-- ════════════════════════════════════════════════════════════════
+     TABLE
+════════════════════════════════════════════════════════════════ -->
+<div id="table-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th style="width:200px;">Key</th>
+        <th>English (en)</th>
+        <th>French (fr)</th>
+        <th>German (de)</th>
+        <th style="width:72px; text-align:right;">Actions</th>
+      </tr>
+    </thead>
+    <tbody id="table-body"></tbody>
+  </table>
+  <div id="empty-state">
+    <h3 id="empty-title">No entries yet</h3>
+    <p id="empty-sub">Click "Add Entry" to create your first translation key.</p>
+  </div>
+</div>
+
+<!-- Entry count -->
+<div id="count-bar"></div>
+
+
+<!-- ════════════════════════════════════════════════════════════════
+     ADD / EDIT MODAL
+════════════════════════════════════════════════════════════════ -->
+<div class="overlay" id="entry-overlay">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-header">
+      <h2 id="modal-title">Add Entry</h2>
+      <button class="icon-btn" onclick="closeModal()" aria-label="Close">
+        <svg width="15" height="15" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="form-group">
+      <label class="label" for="modal-key">Key <span style="color:var(--danger)">*</span></label>
+      <input type="text" id="modal-key" placeholder="EXAMPLE_KEY" oninput="validateKeyInput(this.value)" spellcheck="false" />
+      <p class="hint" id="key-hint">Use SCREAMING_SNAKE_CASE · No spaces allowed</p>
+      <p class="error" id="key-error" style="display:none;"></p>
+    </div>
+
+    <div class="form-group">
+      <label class="label" for="modal-en">English (en)</label>
+      <textarea id="modal-en" placeholder="English text…" oninput="checkEmpty('en-warn', this.value)"></textarea>
+      <p class="warn" id="en-warn" style="display:none;">⚠ Empty — will be saved as an empty string</p>
+    </div>
+
+    <div class="form-group">
+      <label class="label" for="modal-fr">French (fr)</label>
+      <textarea id="modal-fr" placeholder="French text…" oninput="checkEmpty('fr-warn', this.value)"></textarea>
+      <p class="warn" id="fr-warn" style="display:none;">⚠ Empty — will be saved as an empty string</p>
+    </div>
+
+    <div class="form-group">
+      <label class="label" for="modal-de">German (de)</label>
+      <textarea id="modal-de" placeholder="German text…" oninput="checkEmpty('de-warn', this.value)"></textarea>
+      <p class="warn" id="de-warn" style="display:none;">⚠ Empty — will be saved as an empty string</p>
+    </div>
+
+    <div class="modal-footer">
+      <button class="btn btn-ghost" onclick="closeModal()">Cancel</button>
+      <button class="btn btn-primary" id="modal-save-btn" onclick="handleModalSave()">Save Entry</button>
+    </div>
+  </div>
+</div>
+
+
+<!-- ════════════════════════════════════════════════════════════════
+     DELETE CONFIRM MODAL
+═════════════════════════════════════���══════════════════════════ -->
+<div class="overlay" id="delete-overlay">
+  <div class="modal modal-sm" role="dialog" aria-modal="true">
+    <div class="modal-header">
+      <h2>Delete Entry</h2>
+    </div>
+    <p style="color:var(--text-muted); font-size:.9rem; margin-bottom:6px;">Are you sure you want to delete:</p>
+    <p id="delete-key-display" style="font-family:var(--mono),monospace; font-size:.9rem; color:var(--danger); word-break:break-all;"></p>
+    <p style="color:var(--text-dim); font-size:.8rem; margin-top:10px; line-height:1.5;">
+      The deletion will be committed to GitHub when you click <strong style="color:var(--text-muted);">Save to GitHub</strong>.
+    </p>
+    <div class="modal-footer">
+      <button class="btn btn-ghost" onclick="closeDeleteModal()">Cancel</button>
+      <button class="btn btn-danger" onclick="confirmDelete()">Delete</button>
+    </div>
+  </div>
+</div>
+
+
+<!-- ════════════════════════════════════════════════════════════════
+     TOAST CONTAINER
+════════════════════════════════════════════════════════════════ -->
+<div id="toast-container"></div>
+
+<script defer src="src/main.js"></script>
+</body>
+</html>

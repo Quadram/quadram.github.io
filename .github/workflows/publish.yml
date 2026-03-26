@@ -1,0 +1,61 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# publish.yml — Sync translations.json to a public mirror repo
+#
+# OPTIONAL — only needed if you want an unauthenticated public URL for Android.
+#
+# Setup required:
+#   1. Create a public repo called "translations-data"
+#   2. Generate an SSH key pair:
+#        ssh-keygen -t ed25519 -C "ci-deploy" -f deploy_key -N ""
+#   3. Add the PUBLIC key to translations-data → Settings → Deploy keys (write access)
+#   4. Add the PRIVATE key as a secret in THIS repo:
+#        Settings → Secrets and variables → Actions → New repository secret
+#        Name: DEPLOY_KEY
+#
+# After setup, the public raw URL will be:
+#   https://raw.githubusercontent.com/{owner}/translations-data/main/translations.json
+# ─────────────────────────────────────────────────────────────────────────────
+
+name: Publish translations to public mirror
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'translations.json'
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout editor repo
+        uses: actions/checkout@v4
+
+      - name: Push translations.json to public mirror
+        env:
+          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+          # ⚠ Update these two values:
+          MIRROR_REPO: git@github.com:YOUR_ORG_NAME/translations-data.git
+          MIRROR_BRANCH: main
+        run: |
+          # Configure SSH
+          mkdir -p ~/.ssh
+          echo "$DEPLOY_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          export GIT_SSH_COMMAND="ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=no"
+
+          # Configure git identity
+          git config --global user.email "ci@deploy"
+          git config --global user.name "CI Deploy"
+
+          # Clone mirror, copy file, commit and push
+          git clone --depth 1 --branch "$MIRROR_BRANCH" "$MIRROR_REPO" mirror-out
+          cp translations.json mirror-out/translations.json
+          cd mirror-out
+          git add translations.json
+          git diff --cached --quiet && echo "No changes to sync." && exit 0
+          git commit -m "sync translations from editor [skip ci]"
+          git push origin "$MIRROR_BRANCH"
