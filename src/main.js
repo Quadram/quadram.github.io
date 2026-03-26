@@ -185,10 +185,15 @@ async function loadTranslations() {
       atob(data.content.replace(/\s/g, '')),
       c => c.charCodeAt(0)
     );
-    state.translations = JSON.parse(new TextDecoder().decode(rawBytes));
+    const parsed = JSON.parse(new TextDecoder().decode(rawBytes));
 
-    if (!Array.isArray(state.translations)) {
-      throw new Error(`${CONFIG.file} is not a JSON array. Please fix the file format.`);
+    // Support both the new wrapper format { date, string: [] } and the legacy flat array
+    if (Array.isArray(parsed)) {
+      state.translations = parsed;
+    } else if (parsed && Array.isArray(parsed.string)) {
+      state.translations = parsed.string;
+    } else {
+      throw new Error(`${CONFIG.file} has an unexpected format. Expected an object with a "string" array.`);
     }
 
     renderTable();
@@ -214,8 +219,11 @@ async function saveTranslations(commitMessage) {
     ? [...state.translations].sort((a, b) => a.key.localeCompare(b.key))
     : [...state.translations];
 
+  // Wrap with a top-level date stamp for versioning
+  const wrapper = { date: new Date().toISOString(), strings: data };
+
   // Encode JSON → UTF-8 bytes → base64 (handles ä ö ü é à ç etc.)
-  const jsonStr = JSON.stringify(data, null, 2);
+  const jsonStr = JSON.stringify(wrapper, null, 2);
   const utf8Bytes = new TextEncoder().encode(jsonStr);
   let binary = '';
   for (let i = 0; i < utf8Bytes.length; i++) binary += String.fromCharCode(utf8Bytes[i]);
