@@ -180,7 +180,12 @@ async function loadTranslations() {
 
     const data = await res.json();
     state.sha = data.sha;
-    state.translations = JSON.parse(atob(data.content.replace(/\s/g, '')));
+    // Decode base64 → UTF-8 bytes → string (supports ä ö ü é à ç etc.)
+    const rawBytes = Uint8Array.from(
+      atob(data.content.replace(/\s/g, '')),
+      c => c.charCodeAt(0)
+    );
+    state.translations = JSON.parse(new TextDecoder().decode(rawBytes));
 
     if (!Array.isArray(state.translations)) {
       throw new Error(`${CONFIG.file} is not a JSON array. Please fix the file format.`);
@@ -209,9 +214,12 @@ async function saveTranslations(commitMessage) {
     ? [...state.translations].sort((a, b) => a.key.localeCompare(b.key))
     : [...state.translations];
 
-  // Encode JSON → base64 (handles Unicode safely via TextEncoder)
+  // Encode JSON → UTF-8 bytes → base64 (handles ä ö ü é à ç etc.)
   const jsonStr = JSON.stringify(data, null, 2);
-  const content = btoa(String.fromCharCode(...new TextEncoder().encode(jsonStr)));
+  const utf8Bytes = new TextEncoder().encode(jsonStr);
+  let binary = '';
+  for (let i = 0; i < utf8Bytes.length; i++) binary += String.fromCharCode(utf8Bytes[i]);
+  const content = btoa(binary);
 
   const body = { message: commitMessage, content, branch: CONFIG.branch };
   if (currentSha) body.sha = currentSha;
@@ -363,6 +371,13 @@ function openModal(key) {
 function closeModal() {
   document.getElementById('entry-overlay').classList.remove('open');
   _editingKey = null;
+}
+
+function handleKeyInput(input) {
+  const pos = input.selectionStart;
+  input.value = input.value.toUpperCase();
+  input.setSelectionRange(pos, pos);
+  validateKeyInput(input.value);
 }
 
 function validateKeyInput(val) {

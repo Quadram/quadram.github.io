@@ -167,8 +167,8 @@
 
     <div class="form-group">
       <label class="label" for="modal-key">Key <span style="color:var(--danger)">*</span></label>
-      <input type="text" id="modal-key" placeholder="EXAMPLE_KEY" oninput="validateKeyInput(this.value)" spellcheck="false" />
-      <p class="hint" id="key-hint">Use SCREAMING_SNAKE_CASE · No spaces allowed</p>
+      <input type="text" id="modal-key" placeholder="EXAMPLE_KEY" oninput="handleKeyInput(this)" spellcheck="false" />
+      <p class="hint" id="key-hint">⬆ Keys are automatically converted to UPPERCASE · No spaces allowed</p>
       <p class="error" id="key-error" style="display:none;"></p>
     </div>
 
