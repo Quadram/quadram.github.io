@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-26T16:19:23.514Z",
+  "date": "2026-03-26T16:31:32.352Z",
   "strings": [
     {
       "key": "APP_TITLE",
@@ -31,6 +31,14 @@
         "en": "NEW",
         "fr": "NOU",
         "de": "NUE"
+      }
+    },
+    {
+      "key": "OLD",
+      "text": {
+        "en": "old",
+        "fr": "olde",
+        "de": "alt"
       }
     },
     {
