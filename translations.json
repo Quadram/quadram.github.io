@@ -20,7 +20,15 @@
     "text": {
       "en": "Confirm",
       "fr": "Confirmer",
-      "de": "Bestätigen"
+      "de": "BestÃ¤tigen"
+    }
+  },
+  {
+    "key": "TEST",
+    "text": {
+      "en": "Test",
+      "fr": "teste",
+      "de": "prueba"
     }
   }
 ]
