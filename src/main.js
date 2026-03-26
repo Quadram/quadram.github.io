@@ -187,13 +187,13 @@ async function loadTranslations() {
     );
     const parsed = JSON.parse(new TextDecoder().decode(rawBytes));
 
-    // Support both the new wrapper format { date, string: [] } and the legacy flat array
+    // Support both the new wrapper format { date, strings: [] } and the legacy flat array
     if (Array.isArray(parsed)) {
       state.translations = parsed;
-    } else if (parsed && Array.isArray(parsed.string)) {
-      state.translations = parsed.string;
+    } else if (parsed && Array.isArray(parsed.strings)) {
+      state.translations = parsed.strings;
     } else {
-      throw new Error(`${CONFIG.file} has an unexpected format. Expected an object with a "string" array.`);
+      throw new Error(`${CONFIG.file} has an unexpected format. Expected an object with a "strings" array.`);
     }
 
     renderTable();
