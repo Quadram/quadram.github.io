@@ -1,6 +1,6 @@
 {
-  "date": "2026-03-26T16:13:50.844Z",
-  "string": [
+  "date": "2026-03-26T16:19:23.514Z",
+  "strings": [
     {
       "key": "APP_TITLE",
       "text": {
@@ -45,7 +45,7 @@
       "key": "TEST",
       "text": {
         "en": "Test",
-        "fr": "teste",
+        "fr": "test",
         "de": "prueba"
       }
     }
