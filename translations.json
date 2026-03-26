@@ -8,19 +8,19 @@
     }
   },
   {
-    "key": "BUTTON_CONFIRM",
-    "text": {
-      "en": "Confirm",
-      "fr": "Confirmer",
-      "de": "Bestätigen"
-    }
-  },
-  {
     "key": "BUTTON_CANCEL",
     "text": {
       "en": "Cancel",
       "fr": "Annuler",
       "de": "Abbrechen"
+    }
+  },
+  {
+    "key": "BUTTON_CONFIRM",
+    "text": {
+      "en": "Confirm",
+      "fr": "Confirmer",
+      "de": "Bestätigen"
     }
   }
 ]
