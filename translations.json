@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-26T16:31:32.352Z",
+  "date": "2026-03-27T12:35:08.102Z",
   "strings": [
     {
       "key": "APP_TITLE",
@@ -26,6 +26,14 @@
       }
     },
     {
+      "key": "LLAVE",
+      "text": {
+        "en": "d",
+        "fr": "gg",
+        "de": "gg"
+      }
+    },
+    {
       "key": "NEW",
       "text": {
         "en": "NEW",
@@ -47,6 +55,14 @@
         "en": "OTHER",
         "fr": "OTRUO",
         "de": "OTRO"
+      }
+    },
+    {
+      "key": "SS",
+      "text": {
+        "en": "ss",
+        "fr": "ss",
+        "de": "ff"
       }
     },
     {
