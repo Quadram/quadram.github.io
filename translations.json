@@ -2,15 +2,143 @@
   "date": "2026-03-27T12:35:08.102Z",
   "strings": [
     {
-      "key": "APP_TITLE",
+      "key": "ACCOUNT_SECTION_TITLE",
       "text": {
-        "en": "My App",
-        "fr": "Mon App",
-        "de": "Meine App"
+        "en": "Account",
+        "fr": "Compte",
+        "de": "Konto"
       }
     },
     {
-      "key": "BUTTON_CANCEL",
+      "key": "ADD_INSTRUMENT_BUTTON",
+      "text": {
+        "en": "Add instrument",
+        "fr": "Ajouter un instrument",
+        "de": "Instrument hinzufügen"
+      }
+    },
+    {
+      "key": "ADD_INSTRUMENT_EMPTY_DESCRIPTION",
+      "text": {
+        "en": "Type the name, symbol or ISIN of the instrument you want to add",
+        "fr": "Saisissez le nom, le symbole ou l’ISIN de l’instrument que vous voulez ajouter",
+        "de": "Geben Sie den Namen, das Symbol oder die ISIN des Instruments ein, das Sie hinzufügen möchten"
+      }
+    },
+    {
+      "key": "ADD_INSTRUMENT_EMPTY_TITLE",
+      "text": {
+        "en": "Search instruments",
+        "fr": "Rechercher des instruments",
+        "de": "Instrumente suchen"
+      }
+    },
+    {
+      "key": "ADD_INSTRUMENT_NO_RESULTS",
+      "text": {
+        "en": "No instruments found",
+        "fr": "Aucun instrument trouvé",
+        "de": "Keine Instrumente gefunden"
+      }
+    },
+    {
+      "key": "ADD_INSTRUMENT_NO_RESULTS_DESCRIPTION",
+      "text": {
+        "en": "Try searching with a different name, symbol or ISIN",
+        "fr": "Essayez avec un autre nom, symbole ou ISIN",
+        "de": "Versuchen Sie es mit einem anderen Namen, Symbol oder einer anderen ISIN"
+      }
+    },
+    {
+      "key": "ADD_INSTRUMENT_SEARCHING",
+      "text": {
+        "en": "Searching instruments...",
+        "fr": "Recherche d’instruments…",
+        "de": "Instrumente werden gesucht…"
+      }
+    },
+    {
+      "key": "ADD_INSTRUMENT_SEARCH_LABEL",
+      "text": {
+        "en": "Name, Symbol or ISIN",
+        "fr": "Nom, symbole ou ISIN",
+        "de": "Name, Symbol oder ISIN"
+      }
+    },
+    {
+      "key": "ADD_INSTRUMENT_SEARCH_PLACEHOLDER",
+      "text": {
+        "en": "Search instruments...",
+        "fr": "Rechercher des instruments…",
+        "de": "Instrumente suchen…"
+      }
+    },
+    {
+      "key": "ADD_INSTRUMENT_TITLE",
+      "text": {
+        "en": "Add instrument",
+        "fr": "Ajouter un instrument",
+        "de": "Instrument hinzufügen"
+      }
+    },
+    {
+      "key": "ALERTS_EMPTY_MESSAGE",
+      "text": {
+        "en": "No active alerts.",
+        "fr": "Aucune alerte active.",
+        "de": "Keine aktiven Alarme."
+      }
+    },
+    {
+      "key": "ALERTS_OPTION",
+      "text": {
+        "en": "Alerts",
+        "fr": "Alertes",
+        "de": "Alarme"
+      }
+    },
+    {
+      "key": "ALERTS_TITLE",
+      "text": {
+        "en": "Alerts",
+        "fr": "Alertes",
+        "de": "Alarme"
+      }
+    },
+    {
+      "key": "COMMODITIES_FILTER_ENERGY",
+      "text": {
+        "en": "Energy",
+        "fr": "Energy",
+        "de": "Energy"
+      }
+    },
+    {
+      "key": "COMMODITIES_FILTER_LABEL",
+      "text": {
+        "en": "Category",
+        "fr": "Category",
+        "de": "Category"
+      }
+    },
+    {
+      "key": "COMMODITIES_FILTER_METALS",
+      "text": {
+        "en": "Metals",
+        "fr": "Metals",
+        "de": "Metals"
+      }
+    },
+    {
+      "key": "COMMODITIES_FILTER_SOFT_COMMODITIES",
+      "text": {
+        "en": "Soft commodities",
+        "fr": "Soft commodities",
+        "de": "Soft commodities"
+      }
+    },
+    {
+      "key": "COMMON_CANCEL",
       "text": {
         "en": "Cancel",
         "fr": "Annuler",
@@ -18,59 +146,1699 @@
       }
     },
     {
-      "key": "BUTTON_CONFIRM",
+      "key": "COMMON_DONE",
       "text": {
-        "en": "Confirm",
-        "fr": "Confirmer",
-        "de": "Bestätigen"
+        "en": "Done",
+        "fr": "Terminé",
+        "de": "Fertig"
       }
     },
     {
-      "key": "LLAVE",
+      "key": "COMMON_ERROR",
       "text": {
-        "en": "d",
-        "fr": "gg",
-        "de": "gg"
+        "en": "Error",
+        "fr": "Erreur",
+        "de": "Fehler"
       }
     },
     {
-      "key": "NEW",
+      "key": "COMMON_HOME",
       "text": {
-        "en": "NEW",
-        "fr": "NOU",
-        "de": "NUE"
+        "en": "Home",
+        "fr": "Accueil",
+        "de": "Start"
       }
     },
     {
-      "key": "OLD",
+      "key": "COMMON_MARKETS",
       "text": {
-        "en": "old",
-        "fr": "olde",
-        "de": "alt"
+        "en": "Markets",
+        "fr": "Marchés",
+        "de": "Märkte"
       }
     },
     {
-      "key": "OTHER",
+      "key": "COMMON_NEWS",
       "text": {
-        "en": "OTHER",
-        "fr": "OTRUO",
-        "de": "OTRO"
+        "en": "News",
+        "fr": "Actualités",
+        "de": "Nachrichten"
       }
     },
     {
-      "key": "SS",
+      "key": "COMMON_NO",
       "text": {
-        "en": "ss",
-        "fr": "ss",
-        "de": "ff"
+        "en": "No",
+        "fr": "Non",
+        "de": "Nein"
       }
     },
     {
-      "key": "TEST",
+      "key": "COMMON_PROFILE",
       "text": {
-        "en": "Test",
-        "fr": "test",
-        "de": "prueba"
+        "en": "Profile",
+        "fr": "Profil",
+        "de": "Profil"
+      }
+    },
+    {
+      "key": "COMMON_RETRY",
+      "text": {
+        "en": "Retry",
+        "fr": "Réessayer",
+        "de": "Erneut versuchen"
+      }
+    },
+    {
+      "key": "COMMON_SAVE",
+      "text": {
+        "en": "Save",
+        "fr": "Enregistrer",
+        "de": "Speichern"
+      }
+    },
+    {
+      "key": "COMMON_UNKNOWN_ERROR",
+      "text": {
+        "en": "Unknown error",
+        "fr": "Erreur inconnue",
+        "de": "Unbekannter Fehler"
+      }
+    },
+    {
+      "key": "COMMON_YES",
+      "text": {
+        "en": "Yes",
+        "fr": "Oui",
+        "de": "Ja"
+      }
+    },
+    {
+      "key": "COMPOSITION_CHANGE_PERCENT",
+      "text": {
+        "en": "Change %",
+        "fr": "Variation %",
+        "de": "Änderung %"
+      }
+    },
+    {
+      "key": "COMPOSITION_CLOSE",
+      "text": {
+        "en": "Close",
+        "fr": "Close",
+        "de": "Close"
+      }
+    },
+    {
+      "key": "COMPOSITION_ERROR_LOADING",
+      "text": {
+        "en": "Error loading composition.",
+        "fr": "Error loading composition.",
+        "de": "Error loading composition."
+      }
+    },
+    {
+      "key": "COMPOSITION_LAST_PRICE",
+      "text": {
+        "en": "Last price",
+        "fr": "Dernier prix",
+        "de": "Letzter Kurs"
+      }
+    },
+    {
+      "key": "COMPOSITION_NO_DATA",
+      "text": {
+        "en": "No composition data available.",
+        "fr": "No composition data available.",
+        "de": "No composition data available."
+      }
+    },
+    {
+      "key": "COMPOSITION_YTD",
+      "text": {
+        "en": "YTD %",
+        "fr": "YTD %",
+        "de": "YTD %"
+      }
+    },
+    {
+      "key": "CONTEXT_MENU_CHANGE_NAME",
+      "text": {
+        "en": "Change name",
+        "fr": "Changer le nom",
+        "de": "Namen ändern"
+      }
+    },
+    {
+      "key": "CONTEXT_MENU_DELETE",
+      "text": {
+        "en": "Delete",
+        "fr": "Supprimer",
+        "de": "Löschen"
+      }
+    },
+    {
+      "key": "CREATE_ALERT_BUTTON",
+      "text": {
+        "en": "Create alert",
+        "fr": "Create alert",
+        "de": "Create alert"
+      }
+    },
+    {
+      "key": "CREATE_PORTFOLIO_BUTTON",
+      "text": {
+        "en": "Create portfolio",
+        "fr": "Créer un portefeuille",
+        "de": "Portfolio erstellen"
+      }
+    },
+    {
+      "key": "CREATE_PORTFOLIO_CONFIRM",
+      "text": {
+        "en": "Create portfolio",
+        "fr": "Créer un portefeuille",
+        "de": "Portfolio erstellen"
+      }
+    },
+    {
+      "key": "CREATE_PORTFOLIO_TITLE",
+      "text": {
+        "en": "Create portfolio",
+        "fr": "Créer un portefeuille",
+        "de": "Portfolio erstellen"
+      }
+    },
+    {
+      "key": "CREATE_WATCHLIST_BUTTON",
+      "text": {
+        "en": "Create watchlist",
+        "fr": "Créer une liste de suivi",
+        "de": "Watchlist erstellen"
+      }
+    },
+    {
+      "key": "CREATE_WATCHLIST_CONFIRM",
+      "text": {
+        "en": "Create watchlist",
+        "fr": "Créer une liste de suivi",
+        "de": "Watchlist erstellen"
+      }
+    },
+    {
+      "key": "CREATE_WATCHLIST_TITLE",
+      "text": {
+        "en": "Create watchlist",
+        "fr": "Créer une liste de suivi",
+        "de": "Watchlist erstellen"
+      }
+    },
+    {
+      "key": "CRYPTO_FILTER_LABEL",
+      "text": {
+        "en": "Currency",
+        "fr": "Devise",
+        "de": "Währung"
+      }
+    },
+    {
+      "key": "CURRENCY_LABEL",
+      "text": {
+        "en": "Currency",
+        "fr": "Devise",
+        "de": "Währung"
+      }
+    },
+    {
+      "key": "CURRENCY_PLACEHOLDER",
+      "text": {
+        "en": "Select Currency",
+        "fr": "Sélectionner une devise",
+        "de": "Währung auswählen"
+      }
+    },
+    {
+      "key": "DEFAULT_PORTFOLIO_OPTION",
+      "text": {
+        "en": "Default portfolio",
+        "fr": "Portefeuille par défaut",
+        "de": "Standardportfolio"
+      }
+    },
+    {
+      "key": "EDIT_BUTTON",
+      "text": {
+        "en": "Edit",
+        "fr": "Modifier",
+        "de": "Bearbeiten"
+      }
+    },
+    {
+      "key": "ERROR_INITIALIZATION_TITLE",
+      "text": {
+        "en": "Initialization Error",
+        "fr": "Erreur d’initialisation",
+        "de": "Initialisierungsfehler"
+      }
+    },
+    {
+      "key": "ERROR_RETRY_BUTTON",
+      "text": {
+        "en": "Retry",
+        "fr": "Réessayer",
+        "de": "Erneut versuchen"
+      }
+    },
+    {
+      "key": "FACTSHEET_BUTTON_BUY",
+      "text": {
+        "en": "Buy",
+        "fr": "Acheter",
+        "de": "Kaufen"
+      }
+    },
+    {
+      "key": "FACTSHEET_BUTTON_SELL",
+      "text": {
+        "en": "Sell",
+        "fr": "Vendre",
+        "de": "Verkaufen"
+      }
+    },
+    {
+      "key": "FACTSHEET_DETAIL_CONTENT_PLACEHOLDER",
+      "text": {
+        "en": "Detail Content",
+        "fr": "Contenu détaillé",
+        "de": "Detailinhalt"
+      }
+    },
+    {
+      "key": "FACTSHEET_NO_NEWS_AVAILABLE",
+      "text": {
+        "en": "No news available",
+        "fr": "Aucune actualité disponible",
+        "de": "Keine Nachrichten verfügbar"
+      }
+    },
+    {
+      "key": "FACTSHEET_SECTION_CHART",
+      "text": {
+        "en": "Chart",
+        "fr": "Graphique",
+        "de": "Diagramm"
+      }
+    },
+    {
+      "key": "FACTSHEET_SECTION_NEWS",
+      "text": {
+        "en": "News",
+        "fr": "Actualités",
+        "de": "Nachrichten"
+      }
+    },
+    {
+      "key": "FACTSHEET_SECTION_TRENDS",
+      "text": {
+        "en": "Trends",
+        "fr": "Tendances",
+        "de": "Trends"
+      }
+    },
+    {
+      "key": "FACTSHEET_STRUCTURED_PRO_CONTENT_PLACEHOLDER",
+      "text": {
+        "en": "Structured Pro Content",
+        "fr": "Contenu des produits structurés",
+        "de": "Inhalt strukturierter Produkte"
+      }
+    },
+    {
+      "key": "FACTSHEET_TAB_CHART",
+      "text": {
+        "en": "Chart",
+        "fr": "Graphique",
+        "de": "Diagramm"
+      }
+    },
+    {
+      "key": "FACTSHEET_TAB_COMPOSITION",
+      "text": {
+        "en": "Composition",
+        "fr": "Composition",
+        "de": "Zusammensetzung"
+      }
+    },
+    {
+      "key": "FACTSHEET_TAB_HISTORY",
+      "text": {
+        "en": "History Data",
+        "fr": "Historique",
+        "de": "Historie"
+      }
+    },
+    {
+      "key": "FACTSHEET_TAB_OTHER_MARKETS",
+      "text": {
+        "en": "Other Markets",
+        "fr": "Autres marchés",
+        "de": "Andere Märkte"
+      }
+    },
+    {
+      "key": "FACTSHEET_TAB_OVERVIEW",
+      "text": {
+        "en": "Overview",
+        "fr": "Aperçu",
+        "de": "Übersicht"
+      }
+    },
+    {
+      "key": "FACTSHEET_TAB_STRUCTURED_PRO",
+      "text": {
+        "en": "Structured Products",
+        "fr": "Produits structurés",
+        "de": "Strukturierte Produkte"
+      }
+    },
+    {
+      "key": "FACTSHEET_TAB_SUMMARY",
+      "text": {
+        "en": "Summary",
+        "fr": "Résumé",
+        "de": "Zusammenfassung"
+      }
+    },
+    {
+      "key": "FACTSHEET_TAB_UNDERLYING",
+      "text": {
+        "en": "Underlying",
+        "fr": "Sous-jacent",
+        "de": "Basiswert"
+      }
+    },
+    {
+      "key": "INDICES_FILTER_AMERICA",
+      "text": {
+        "en": "America",
+        "fr": "America",
+        "de": "America"
+      }
+    },
+    {
+      "key": "INDICES_FILTER_ASIA",
+      "text": {
+        "en": "Asia",
+        "fr": "Asie",
+        "de": "Asien"
+      }
+    },
+    {
+      "key": "INDICES_FILTER_EUROPE",
+      "text": {
+        "en": "Europe",
+        "fr": "Europe",
+        "de": "Europa"
+      }
+    },
+    {
+      "key": "INDICES_FILTER_LABEL",
+      "text": {
+        "en": "Select:",
+        "fr": "Sélectionner :",
+        "de": "Auswählen:"
+      }
+    },
+    {
+      "key": "INDICES_FILTER_SWITZERLAND",
+      "text": {
+        "en": "Switzerland",
+        "fr": "Switzerland",
+        "de": "Switzerland"
+      }
+    },
+    {
+      "key": "INDICES_OVERVIEW_TITLE",
+      "text": {
+        "en": "Indices Overview",
+        "fr": "Aperçu des indices",
+        "de": "Indexübersicht"
+      }
+    },
+    {
+      "key": "INDICES_TITLE",
+      "text": {
+        "en": "Indices",
+        "fr": "Indices",
+        "de": "Indizes"
+      }
+    },
+    {
+      "key": "LOADING_DEFAULT",
+      "text": {
+        "en": "Loading...",
+        "fr": "Chargement…",
+        "de": "Wird geladen…"
+      }
+    },
+    {
+      "key": "LOADING_NEWS",
+      "text": {
+        "en": "Loading news...",
+        "fr": "Chargement des actualités…",
+        "de": "Nachrichten werden geladen…"
+      }
+    },
+    {
+      "key": "LOGIN_BUTTON",
+      "text": {
+        "en": "Log in",
+        "fr": "Se connecter",
+        "de": "Anmelden"
+      }
+    },
+    {
+      "key": "LOGIN_ERROR_INVALID_CREDENTIALS",
+      "text": {
+        "en": "Login or password incorrect",
+        "fr": "Identifiant ou mot de passe incorrect",
+        "de": "Benutzername oder Passwort falsch"
+      }
+    },
+    {
+      "key": "LOGIN_FORGOT_PASSWORD",
+      "text": {
+        "en": "Forgot your password?",
+        "fr": "Mot de passe oublié ?",
+        "de": "Passwort vergessen?"
+      }
+    },
+    {
+      "key": "LOGIN_NO_DATA_YET",
+      "text": {
+        "en": "Not login data yet?",
+        "fr": "Pas encore d’identifiants ?",
+        "de": "Noch keine Zugangsdaten?"
+      }
+    },
+    {
+      "key": "LOGIN_PASSWORD_LABEL",
+      "text": {
+        "en": "Password *",
+        "fr": "Mot de passe *",
+        "de": "Passwort *"
+      }
+    },
+    {
+      "key": "LOGIN_PASSWORD_PLACEHOLDER",
+      "text": {
+        "en": "Password",
+        "fr": "Mot de passe",
+        "de": "Passwort"
+      }
+    },
+    {
+      "key": "LOGIN_REGISTER_HERE",
+      "text": {
+        "en": "Register here",
+        "fr": "S’inscrire ici",
+        "de": "Hier registrieren"
+      }
+    },
+    {
+      "key": "LOGIN_USERNAME_LABEL",
+      "text": {
+        "en": "User *",
+        "fr": "Utilisateur *",
+        "de": "Benutzer *"
+      }
+    },
+    {
+      "key": "LOGIN_USERNAME_PLACEHOLDER",
+      "text": {
+        "en": "User",
+        "fr": "Utilisateur",
+        "de": "Benutzer"
+      }
+    },
+    {
+      "key": "MAP_ASIA",
+      "text": {
+        "en": "Asia",
+        "fr": "Asie",
+        "de": "Asien"
+      }
+    },
+    {
+      "key": "MAP_EUROPE",
+      "text": {
+        "en": "Europe",
+        "fr": "Europe",
+        "de": "Europa"
+      }
+    },
+    {
+      "key": "MAP_LABEL",
+      "text": {
+        "en": "Map",
+        "fr": "Carte",
+        "de": "Karte"
+      }
+    },
+    {
+      "key": "MAP_WORLD",
+      "text": {
+        "en": "World",
+        "fr": "Monde",
+        "de": "Welt"
+      }
+    },
+    {
+      "key": "MARKETS_TAB_COMMODITIES",
+      "text": {
+        "en": "Commodities",
+        "fr": "Matières premières",
+        "de": "Rohstoffe"
+      }
+    },
+    {
+      "key": "MARKETS_TAB_CRYPTO",
+      "text": {
+        "en": "Crypto",
+        "fr": "Cryptomonnaies",
+        "de": "Krypto"
+      }
+    },
+    {
+      "key": "MARKETS_TAB_CURRENCIES",
+      "text": {
+        "en": "Currencies",
+        "fr": "Devises",
+        "de": "Devisen"
+      }
+    },
+    {
+      "key": "MARKETS_TAB_INDICES",
+      "text": {
+        "en": "Indices",
+        "fr": "Indices",
+        "de": "Indizes"
+      }
+    },
+    {
+      "key": "MY_WATCHLIST_TITLE",
+      "text": {
+        "en": "My Watchlist",
+        "fr": "Ma liste de suivi",
+        "de": "Meine Watchlist"
+      }
+    },
+    {
+      "key": "NETWORK_NO_INTERNET_MESSAGE",
+      "text": {
+        "en": "No internet connection at the moment. This app requires an internet connection to function properly.",
+        "fr": "No internet connection at the moment. This app requires an internet connection to function properly.",
+        "de": "No internet connection at the moment. This app requires an internet connection to function properly."
+      }
+    },
+    {
+      "key": "NETWORK_NO_INTERNET_TITLE",
+      "text": {
+        "en": "No internet connection",
+        "fr": "No internet connection",
+        "de": "No internet connection"
+      }
+    },
+    {
+      "key": "NEWS_DETAIL_NO_CONTENT",
+      "text": {
+        "en": "Content not available",
+        "fr": "Contenu indisponible",
+        "de": "Inhalt nicht verfügbar"
+      }
+    },
+    {
+      "key": "NEWS_DETAIL_NO_DATE",
+      "text": {
+        "en": "Date not available",
+        "fr": "Date indisponible",
+        "de": "Datum nicht verfügbar"
+      }
+    },
+    {
+      "key": "NEWS_DETAIL_NO_TITLE",
+      "text": {
+        "en": "No title",
+        "fr": "Sans titre",
+        "de": "Kein Titel"
+      }
+    },
+    {
+      "key": "NEWS_DETAIL_TITLE",
+      "text": {
+        "en": "News Detail",
+        "fr": "Détail de l’actualité",
+        "de": "Nachrichtendetails"
+      }
+    },
+    {
+      "key": "NEWS_EMPTY_REFRESH_HINT",
+      "text": {
+        "en": "Try reloading by pulling down",
+        "fr": "Essayez de recharger en tirant vers le bas",
+        "de": "Versuchen Sie, durch Herunterziehen neu zu laden"
+      }
+    },
+    {
+      "key": "NEWS_ERROR_LOADING",
+      "text": {
+        "en": "Error loading news",
+        "fr": "Erreur lors du chargement des actualités",
+        "de": "Fehler beim Laden der Nachrichten"
+      }
+    },
+    {
+      "key": "NEWS_TITLE",
+      "text": {
+        "en": "News",
+        "fr": "Actualités",
+        "de": "Nachrichten"
+      }
+    },
+    {
+      "key": "NO_RESULTS_COMMODITIES_MESSAGE",
+      "text": {
+        "en": "Try searching with the commodity name",
+        "fr": "Essayez avec le nom de la matière première",
+        "de": "Versuchen Sie es mit dem Namen der Rohware"
+      }
+    },
+    {
+      "key": "NO_RESULTS_CRYPTO_MESSAGE",
+      "text": {
+        "en": "Try searching with the cryptocurrency name or symbol",
+        "fr": "Essayez avec le nom ou le symbole de la cryptomonnaie",
+        "de": "Versuchen Sie es mit dem Namen oder Symbol der Kryptowährung"
+      }
+    },
+    {
+      "key": "NO_RESULTS_CURRENCIES_MESSAGE",
+      "text": {
+        "en": "Try searching with the currency code or name",
+        "fr": "Essayez avec le code ou le nom de la devise",
+        "de": "Versuchen Sie es mit dem Währungscode oder -namen"
+      }
+    },
+    {
+      "key": "NO_RESULTS_FOUND",
+      "text": {
+        "en": "No results found",
+        "fr": "Aucun résultat trouvé",
+        "de": "Keine Ergebnisse gefunden"
+      }
+    },
+    {
+      "key": "NO_RESULTS_INDICES_MESSAGE",
+      "text": {
+        "en": "Try searching with the index name or symbol",
+        "fr": "Essayez avec le nom ou le symbole de l’indice",
+        "de": "Versuchen Sie es mit dem Namen oder Symbol des Index"
+      }
+    },
+    {
+      "key": "NO_RESULTS_MESSAGE",
+      "text": {
+        "en": "Try searching with different keywords",
+        "fr": "Essayez avec d’autres mots-clés",
+        "de": "Versuchen Sie es mit anderen Suchbegriffen"
+      }
+    },
+    {
+      "key": "NO_RESULTS_PORTFOLIOS_MESSAGE",
+      "text": {
+        "en": "Try searching with the portfolio name",
+        "fr": "Essayez avec le nom du portefeuille",
+        "de": "Versuchen Sie es mit dem Namen des Portfolios"
+      }
+    },
+    {
+      "key": "NO_RESULTS_WATCHLISTS_MESSAGE",
+      "text": {
+        "en": "Try searching with the watchlist name",
+        "fr": "Essayez avec le nom de la liste",
+        "de": "Versuchen Sie es mit dem Namen der Watchlist"
+      }
+    },
+    {
+      "key": "PERSONAL_AREA_TITLE",
+      "text": {
+        "en": "Personal area",
+        "fr": "Espace personnel",
+        "de": "Persönlicher Bereich"
+      }
+    },
+    {
+      "key": "PORTFOLIOS_EMPTY_MESSAGE",
+      "text": {
+        "en": "No portfolios found.",
+        "fr": "Aucun portefeuille.",
+        "de": "Keine Portfolios."
+      }
+    },
+    {
+      "key": "PORTFOLIOS_OPTION",
+      "text": {
+        "en": "Portfolios",
+        "fr": "Portefeuilles",
+        "de": "Portfolios"
+      }
+    },
+    {
+      "key": "PORTFOLIOS_TITLE",
+      "text": {
+        "en": "Portfolios",
+        "fr": "Portefeuilles",
+        "de": "Portfolios"
+      }
+    },
+    {
+      "key": "PORTFOLIO_ADD_INSTRUMENTS",
+      "text": {
+        "en": "Add instruments",
+        "fr": "Ajouter des instruments",
+        "de": "Instrumente hinzufügen"
+      }
+    },
+    {
+      "key": "PORTFOLIO_ADD_INSTRUMENT_SEARCH_LABEL",
+      "text": {
+        "en": "Name, Symbol or ISIN",
+        "fr": "Nom, symbole ou ISIN",
+        "de": "Name, Symbol oder ISIN"
+      }
+    },
+    {
+      "key": "PORTFOLIO_ADD_INSTRUMENT_SEARCH_PLACEHOLDER",
+      "text": {
+        "en": "Search instruments...",
+        "fr": "Rechercher des instruments…",
+        "de": "Instrumente suchen…"
+      }
+    },
+    {
+      "key": "PORTFOLIO_ADD_INSTRUMENT_TITLE",
+      "text": {
+        "en": "Add instrument to portfolio",
+        "fr": "Ajouter un instrument au portefeuille",
+        "de": "Instrument zum Portfolio hinzufügen"
+      }
+    },
+    {
+      "key": "PORTFOLIO_CHANGE_NAME_TITLE",
+      "text": {
+        "en": "Change name",
+        "fr": "Changer le nom",
+        "de": "Namen ändern"
+      }
+    },
+    {
+      "key": "PORTFOLIO_CONTEXT_MENU_EDIT_PORTFOLIO",
+      "text": {
+        "en": "Edit portfolio",
+        "fr": "Edit portfolio",
+        "de": "Edit portfolio"
+      }
+    },
+    {
+      "key": "PORTFOLIO_DEFAULT_CHECKBOX",
+      "text": {
+        "en": "Default portfolio",
+        "fr": "Portefeuille par défaut",
+        "de": "Standardportfolio"
+      }
+    },
+    {
+      "key": "PORTFOLIO_DELETE_CONFIRMATION",
+      "text": {
+        "en": "Are you sure you want to delete this portfolio?",
+        "fr": "Êtes-vous sûr de vouloir supprimer ce portefeuille ?",
+        "de": "Möchten Sie dieses Portfolio wirklich löschen?"
+      }
+    },
+    {
+      "key": "PORTFOLIO_EMPTY_MESSAGE",
+      "text": {
+        "en": "Add instruments to start building your portfolio",
+        "fr": "Ajoutez des instruments pour commencer à constituer votre portefeuille",
+        "de": "Fügen Sie Instrumente hinzu, um Ihr Portfolio aufzubauen"
+      }
+    },
+    {
+      "key": "PORTFOLIO_EMPTY_TITLE",
+      "text": {
+        "en": "Empty portfolio",
+        "fr": "Portefeuille vide",
+        "de": "Leeres Portfolio"
+      }
+    },
+    {
+      "key": "PORTFOLIO_NAME_FIELD_LABEL",
+      "text": {
+        "en": "Portfolio Name",
+        "fr": "Nom du portefeuille",
+        "de": "Portfolioname"
+      }
+    },
+    {
+      "key": "PORTFOLIO_NAME_LABEL",
+      "text": {
+        "en": "Portfolio Name",
+        "fr": "Nom du portefeuille",
+        "de": "Portfolioname"
+      }
+    },
+    {
+      "key": "PORTFOLIO_NAME_PLACEHOLDER",
+      "text": {
+        "en": "Portfolio Name",
+        "fr": "Nom du portefeuille",
+        "de": "Portfolioname"
+      }
+    },
+    {
+      "key": "PROFILE_LOGOUT_BUTTON",
+      "text": {
+        "en": "Log out",
+        "fr": "Se déconnecter",
+        "de": "Abmelden"
+      }
+    },
+    {
+      "key": "REGISTER_BUTTON",
+      "text": {
+        "en": "Continue",
+        "fr": "Continuer",
+        "de": "Weiter"
+      }
+    },
+    {
+      "key": "REGISTER_CONFIRM_EMAIL_LABEL",
+      "text": {
+        "en": "Confirm e-mail *",
+        "fr": "Confirmer l’e-mail *",
+        "de": "E-Mail bestätigen *"
+      }
+    },
+    {
+      "key": "REGISTER_CONFIRM_EMAIL_PLACEHOLDER",
+      "text": {
+        "en": "Repeat your e-mail",
+        "fr": "Répétez votre e-mail",
+        "de": "E-Mail erneut eingeben"
+      }
+    },
+    {
+      "key": "REGISTER_CONFIRM_PASSWORD_LABEL",
+      "text": {
+        "en": "Confirm password *",
+        "fr": "Confirmer le mot de passe *",
+        "de": "Passwort bestätigen *"
+      }
+    },
+    {
+      "key": "REGISTER_CONFIRM_PASSWORD_PLACEHOLDER",
+      "text": {
+        "en": "Confirm password",
+        "fr": "Confirmer le mot de passe",
+        "de": "Passwort bestätigen"
+      }
+    },
+    {
+      "key": "REGISTER_EMAIL_LABEL",
+      "text": {
+        "en": "E-mail *",
+        "fr": "E-mail *",
+        "de": "E-Mail *"
+      }
+    },
+    {
+      "key": "REGISTER_EMAIL_PLACEHOLDER",
+      "text": {
+        "en": "name@example.com",
+        "fr": "nom@exemple.com",
+        "de": "name@beispiel.de"
+      }
+    },
+    {
+      "key": "REGISTER_ERROR_INVALID_FORM",
+      "text": {
+        "en": "Please review the form fields before continuing.",
+        "fr": "Veuillez vérifier les champs du formulaire avant de continuer.",
+        "de": "Bitte überprüfen Sie die Formularfelder, bevor Sie fortfahren."
+      }
+    },
+    {
+      "key": "REGISTER_LANGUAGE_LABEL",
+      "text": {
+        "en": "Language",
+        "fr": "Langue",
+        "de": "Sprache"
+      }
+    },
+    {
+      "key": "REGISTER_LANGUAGE_PLACEHOLDER",
+      "text": {
+        "en": "Select language",
+        "fr": "Sélectionner une langue",
+        "de": "Sprache auswählen"
+      }
+    },
+    {
+      "key": "REGISTER_PASSWORD_LABEL",
+      "text": {
+        "en": "Password *",
+        "fr": "Mot de passe *",
+        "de": "Passwort *"
+      }
+    },
+    {
+      "key": "REGISTER_PASSWORD_PLACEHOLDER",
+      "text": {
+        "en": "Password",
+        "fr": "Mot de passe",
+        "de": "Passwort"
+      }
+    },
+    {
+      "key": "REGISTER_TERMS_LABEL",
+      "text": {
+        "en": "I confirm I have read and accept the Terms and Conditions",
+        "fr": "I confirm I have read and accept the Terms and Conditions",
+        "de": "I confirm I have read and accept the Terms and Conditions"
+      }
+    },
+    {
+      "key": "REGISTER_TIMEZONE_LABEL",
+      "text": {
+        "en": "Timezone",
+        "fr": "Fuseau horaire",
+        "de": "Zeitzone"
+      }
+    },
+    {
+      "key": "REGISTER_TIMEZONE_PLACEHOLDER",
+      "text": {
+        "en": "Select timezone",
+        "fr": "Sélectionner un fuseau horaire",
+        "de": "Zeitzone auswählen"
+      }
+    },
+    {
+      "key": "REGISTER_TITLE",
+      "text": {
+        "en": "Registration",
+        "fr": "Inscription",
+        "de": "Registrierung"
+      }
+    },
+    {
+      "key": "REGISTER_USERNAME_LABEL",
+      "text": {
+        "en": "Username *",
+        "fr": "Nom d’utilisateur *",
+        "de": "Benutzername *"
+      }
+    },
+    {
+      "key": "REGISTER_USERNAME_PLACEHOLDER",
+      "text": {
+        "en": "Username",
+        "fr": "Nom d’utilisateur",
+        "de": "Benutzername"
+      }
+    },
+    {
+      "key": "SEARCH_COMMODITIES_PLACEHOLDER",
+      "text": {
+        "en": "Search commodities...",
+        "fr": "Rechercher des matières premières…",
+        "de": "Rohstoffe suchen…"
+      }
+    },
+    {
+      "key": "SEARCH_CRYPTO_PLACEHOLDER",
+      "text": {
+        "en": "Search crypto...",
+        "fr": "Rechercher des cryptomonnaies…",
+        "de": "Krypto suchen…"
+      }
+    },
+    {
+      "key": "SEARCH_CURRENCIES_PLACEHOLDER",
+      "text": {
+        "en": "Search currencies...",
+        "fr": "Rechercher des devises…",
+        "de": "Devisen suchen…"
+      }
+    },
+    {
+      "key": "SEARCH_DEFAULT_PLACEHOLDER",
+      "text": {
+        "en": "Search...",
+        "fr": "Rechercher…",
+        "de": "Suchen…"
+      }
+    },
+    {
+      "key": "SEARCH_HOME_PLACEHOLDER",
+      "text": {
+        "en": "Search by name, symbol, ISIN",
+        "fr": "Rechercher par nom, symbole, ISIN",
+        "de": "Nach Name, Symbol, ISIN suchen"
+      }
+    },
+    {
+      "key": "SEARCH_INDICES_PLACEHOLDER",
+      "text": {
+        "en": "Search indices...",
+        "fr": "Rechercher des indices…",
+        "de": "Indizes suchen…"
+      }
+    },
+    {
+      "key": "SEARCH_PLACEHOLDER",
+      "text": {
+        "en": "Search news...",
+        "fr": "Rechercher des actualités…",
+        "de": "Nachrichten suchen…"
+      }
+    },
+    {
+      "key": "SEARCH_PORTFOLIOS_PLACEHOLDER",
+      "text": {
+        "en": "Search portfolios...",
+        "fr": "Rechercher des portefeuilles…",
+        "de": "Portfolios suchen…"
+      }
+    },
+    {
+      "key": "SEARCH_WATCHLISTS_PLACEHOLDER",
+      "text": {
+        "en": "Search watchlists...",
+        "fr": "Rechercher des listes de suivi…",
+        "de": "Watchlists suchen…"
+      }
+    },
+    {
+      "key": "SELECT_PLACEHOLDER",
+      "text": {
+        "en": "Select",
+        "fr": "Select",
+        "de": "Select"
+      }
+    },
+    {
+      "key": "SETTINGS_CONTACT_OPTION",
+      "text": {
+        "en": "Contact",
+        "fr": "Contact",
+        "de": "Kontakt"
+      }
+    },
+    {
+      "key": "SETTINGS_DELETE_ACCOUNT_OPTION",
+      "text": {
+        "en": "Delete account",
+        "fr": "Supprimer le compte",
+        "de": "Konto löschen"
+      }
+    },
+    {
+      "key": "SETTINGS_HELP_OPTION",
+      "text": {
+        "en": "Help",
+        "fr": "Aide",
+        "de": "Hilfe"
+      }
+    },
+    {
+      "key": "SETTINGS_SUPPORT_SECTION_TITLE",
+      "text": {
+        "en": "Support",
+        "fr": "Support",
+        "de": "Support"
+      }
+    },
+    {
+      "key": "STRUCTURED_PRODUCTS_ASK",
+      "text": {
+        "en": "Ask",
+        "fr": "Ask",
+        "de": "Ask"
+      }
+    },
+    {
+      "key": "STRUCTURED_PRODUCTS_ASK_SIZE",
+      "text": {
+        "en": "Ask Size",
+        "fr": "Ask Size",
+        "de": "Ask Size"
+      }
+    },
+    {
+      "key": "STRUCTURED_PRODUCTS_BID",
+      "text": {
+        "en": "Bid",
+        "fr": "Bid",
+        "de": "Bid"
+      }
+    },
+    {
+      "key": "STRUCTURED_PRODUCTS_BID_SIZE",
+      "text": {
+        "en": "Bid Size",
+        "fr": "Bid Size",
+        "de": "Bid Size"
+      }
+    },
+    {
+      "key": "STRUCTURED_PRODUCTS_DATA_CCY",
+      "text": {
+        "en": "CCY",
+        "fr": "Devise",
+        "de": "Währung"
+      }
+    },
+    {
+      "key": "STRUCTURED_PRODUCTS_DATA_NO_DATA",
+      "text": {
+        "en": "No data available.",
+        "fr": "No data available.",
+        "de": "No data available."
+      }
+    },
+    {
+      "key": "STRUCTURED_PRODUCTS_DATA_OVERVIEW",
+      "text": {
+        "en": "Data overview",
+        "fr": "Data overview",
+        "de": "Data overview"
+      }
+    },
+    {
+      "key": "STRUCTURED_PRODUCTS_DATA_SECTOR",
+      "text": {
+        "en": "Sector",
+        "fr": "Sector",
+        "de": "Sector"
+      }
+    },
+    {
+      "key": "STRUCTURED_PRODUCTS_DATA_SHARES_OUTSTANDING",
+      "text": {
+        "en": "Shares outstanding",
+        "fr": "Shares outstanding",
+        "de": "Shares outstanding"
+      }
+    },
+    {
+      "key": "STRUCTURED_PRODUCTS_DATA_SHARE_TYPE",
+      "text": {
+        "en": "Share type",
+        "fr": "Share type",
+        "de": "Share type"
+      }
+    },
+    {
+      "key": "STRUCTURED_PRODUCTS_DAY_CHANGE_PERCENT",
+      "text": {
+        "en": "Day Change %",
+        "fr": "Day Change %",
+        "de": "Day Change %"
+      }
+    },
+    {
+      "key": "STRUCTURED_PRODUCTS_ERROR_LOADING",
+      "text": {
+        "en": "Error loading structured products.",
+        "fr": "Error loading structured products.",
+        "de": "Error loading structured products."
+      }
+    },
+    {
+      "key": "STRUCTURED_PRODUCTS_EUSIPA_CATEGORIES",
+      "text": {
+        "en": "EUSIPA categories",
+        "fr": "EUSIPA categories",
+        "de": "EUSIPA categories"
+      }
+    },
+    {
+      "key": "STRUCTURED_PRODUCTS_EUSIPA_NO_DATA",
+      "text": {
+        "en": "No EUSIPA categories available.",
+        "fr": "No EUSIPA categories available.",
+        "de": "No EUSIPA categories available."
+      }
+    },
+    {
+      "key": "STRUCTURED_PRODUCTS_EUSIPA_NO_PRODUCTS",
+      "text": {
+        "en": "No products in this category.",
+        "fr": "No products in this category.",
+        "de": "No products in this category."
+      }
+    },
+    {
+      "key": "STRUCTURED_PRODUCTS_ISIN",
+      "text": {
+        "en": "ISIN",
+        "fr": "ISIN",
+        "de": "ISIN"
+      }
+    },
+    {
+      "key": "STRUCTURED_PRODUCTS_LAST",
+      "text": {
+        "en": "Last",
+        "fr": "Last",
+        "de": "Last"
+      }
+    },
+    {
+      "key": "STRUCTURED_PRODUCTS_MAIN_TITLE",
+      "text": {
+        "en": "Main structured products",
+        "fr": "Main structured products",
+        "de": "Main structured products"
+      }
+    },
+    {
+      "key": "STRUCTURED_PRODUCTS_MARKET_ASK",
+      "text": {
+        "en": "Ask",
+        "fr": "Ask",
+        "de": "Ask"
+      }
+    },
+    {
+      "key": "STRUCTURED_PRODUCTS_MARKET_BID",
+      "text": {
+        "en": "Bid",
+        "fr": "Bid",
+        "de": "Bid"
+      }
+    },
+    {
+      "key": "STRUCTURED_PRODUCTS_MARKET_CHANGE",
+      "text": {
+        "en": "Change",
+        "fr": "Change",
+        "de": "Change"
+      }
+    },
+    {
+      "key": "STRUCTURED_PRODUCTS_MARKET_EXCHANGE",
+      "text": {
+        "en": "Exchange",
+        "fr": "Exchange",
+        "de": "Exchange"
+      }
+    },
+    {
+      "key": "STRUCTURED_PRODUCTS_MARKET_LAST",
+      "text": {
+        "en": "Last",
+        "fr": "Last",
+        "de": "Last"
+      }
+    },
+    {
+      "key": "STRUCTURED_PRODUCTS_MARKET_NO_DATA",
+      "text": {
+        "en": "No market data available.",
+        "fr": "No market data available.",
+        "de": "No market data available."
+      }
+    },
+    {
+      "key": "STRUCTURED_PRODUCTS_MARKET_OVERVIEW",
+      "text": {
+        "en": "Market overview",
+        "fr": "Market overview",
+        "de": "Market overview"
+      }
+    },
+    {
+      "key": "STRUCTURED_PRODUCTS_MARKET_YTD",
+      "text": {
+        "en": "YTD %",
+        "fr": "YTD %",
+        "de": "YTD %"
+      }
+    },
+    {
+      "key": "STRUCTURED_PRODUCTS_MATURITY_DATE",
+      "text": {
+        "en": "Maturity Date",
+        "fr": "Maturity Date",
+        "de": "Maturity Date"
+      }
+    },
+    {
+      "key": "STRUCTURED_PRODUCTS_NO_DATA",
+      "text": {
+        "en": "No structured products available.",
+        "fr": "No structured products available.",
+        "de": "No structured products available."
+      }
+    },
+    {
+      "key": "STRUCTURED_PRODUCTS_PREVIOUS_MONTH_TURNOVER",
+      "text": {
+        "en": "Previous Month $ Turnover",
+        "fr": "Previous Month $ Turnover",
+        "de": "Previous Month $ Turnover"
+      }
+    },
+    {
+      "key": "STRUCTURED_PRODUCTS_VALOR",
+      "text": {
+        "en": "Valor",
+        "fr": "Valor",
+        "de": "Valor"
+      }
+    },
+    {
+      "key": "TOPFLOP_DATE_TIME",
+      "text": {
+        "en": "Date/Time",
+        "fr": "Date/Time",
+        "de": "Date/Time"
+      }
+    },
+    {
+      "key": "TOPFLOP_DAY_CHANGE",
+      "text": {
+        "en": "Day Change",
+        "fr": "Day Change",
+        "de": "Day Change"
+      }
+    },
+    {
+      "key": "TOPFLOP_FLOP_TITLE",
+      "text": {
+        "en": "Flop 3",
+        "fr": "Flop 3",
+        "de": "Flop 3"
+      }
+    },
+    {
+      "key": "TOPFLOP_NO_FLOP",
+      "text": {
+        "en": "No flop available.",
+        "fr": "No flop available.",
+        "de": "No flop available."
+      }
+    },
+    {
+      "key": "TOPFLOP_NO_TOP",
+      "text": {
+        "en": "No top available.",
+        "fr": "No top available.",
+        "de": "No top available."
+      }
+    },
+    {
+      "key": "TOPFLOP_TOP_TITLE",
+      "text": {
+        "en": "Top 3",
+        "fr": "Top 3",
+        "de": "Top 3"
+      }
+    },
+    {
+      "key": "TOPFLOP_TURNOVER",
+      "text": {
+        "en": "Turnover",
+        "fr": "Turnover",
+        "de": "Turnover"
+      }
+    },
+    {
+      "key": "TOPFLOP_VOLUME",
+      "text": {
+        "en": "Volume",
+        "fr": "Volume",
+        "de": "Volume"
+      }
+    },
+    {
+      "key": "WATCHLISTS_EMPTY_MESSAGE",
+      "text": {
+        "en": "No watchlists found.",
+        "fr": "Aucune liste de suivi.",
+        "de": "Keine Watchlists."
+      }
+    },
+    {
+      "key": "WATCHLISTS_OPTION",
+      "text": {
+        "en": "Watchlists",
+        "fr": "Listes de suivi",
+        "de": "Watchlists"
+      }
+    },
+    {
+      "key": "WATCHLISTS_TITLE",
+      "text": {
+        "en": "Watchlists",
+        "fr": "Listes de suivi",
+        "de": "Watchlists"
+      }
+    },
+    {
+      "key": "WATCHLIST_ADD_INSTRUMENTS",
+      "text": {
+        "en": "Add instruments",
+        "fr": "Ajouter des instruments",
+        "de": "Instrumente hinzufügen"
+      }
+    },
+    {
+      "key": "WATCHLIST_ADD_INSTRUMENT_SEARCH_LABEL",
+      "text": {
+        "en": "Name, Symbol or ISIN",
+        "fr": "Nom, symbole ou ISIN",
+        "de": "Name, Symbol oder ISIN"
+      }
+    },
+    {
+      "key": "WATCHLIST_ADD_INSTRUMENT_SEARCH_PLACEHOLDER",
+      "text": {
+        "en": "Search instruments...",
+        "fr": "Rechercher des instruments…",
+        "de": "Instrumente suchen…"
+      }
+    },
+    {
+      "key": "WATCHLIST_ADD_INSTRUMENT_TITLE",
+      "text": {
+        "en": "Add instrument to watchlist",
+        "fr": "Ajouter un instrument à la liste de suivi",
+        "de": "Instrument zur Watchlist hinzufügen"
+      }
+    },
+    {
+      "key": "WATCHLIST_CHANGE_NAME_TITLE",
+      "text": {
+        "en": "Change name",
+        "fr": "Changer le nom",
+        "de": "Namen ändern"
+      }
+    },
+    {
+      "key": "WATCHLIST_CONTEXT_MENU_DELETE",
+      "text": {
+        "en": "Delete watchlist",
+        "fr": "Supprimer la liste",
+        "de": "Watchlist löschen"
+      }
+    },
+    {
+      "key": "WATCHLIST_CONTEXT_MENU_EDIT_INSTRUMENTS",
+      "text": {
+        "en": "Edit instruments",
+        "fr": "Modifier les instruments",
+        "de": "Instrumente bearbeiten"
+      }
+    },
+    {
+      "key": "WATCHLIST_CONTEXT_MENU_EDIT_WATCHLIST",
+      "text": {
+        "en": "Edit watchlist",
+        "fr": "Modifier la liste",
+        "de": "Watchlist bearbeiten"
+      }
+    },
+    {
+      "key": "WATCHLIST_DELETE_CONFIRMATION",
+      "text": {
+        "en": "Are you sure you want to delete this watchlist?",
+        "fr": "Êtes-vous sûr de vouloir supprimer cette liste de suivi ?",
+        "de": "Möchten Sie diese Watchlist wirklich löschen?"
+      }
+    },
+    {
+      "key": "WATCHLIST_EMPTY_MESSAGE",
+      "text": {
+        "en": "Add instruments to start building your watchlist",
+        "fr": "Ajoutez des instruments pour commencer à constituer votre liste",
+        "de": "Fügen Sie Instrumente hinzu, um Ihre Watchlist aufzubauen"
+      }
+    },
+    {
+      "key": "WATCHLIST_EMPTY_TITLE",
+      "text": {
+        "en": "Empty Watchlist",
+        "fr": "Liste de suivi vide",
+        "de": "Leere Watchlist"
+      }
+    },
+    {
+      "key": "WATCHLIST_HEATMAP_COMING_SOON",
+      "text": {
+        "en": "Coming soon",
+        "fr": "Bientôt disponible",
+        "de": "Demnächst"
+      }
+    },
+    {
+      "key": "WATCHLIST_HEATMAP_TITLE",
+      "text": {
+        "en": "Watchlist Heatmap",
+        "fr": "Carte de chaleur de la liste de suivi",
+        "de": "Watchlist-Heatmap"
+      }
+    },
+    {
+      "key": "WATCHLIST_NAME_FIELD_LABEL",
+      "text": {
+        "en": "Watchlist Name",
+        "fr": "Nom de la liste de suivi",
+        "de": "Watchlist-Name"
+      }
+    },
+    {
+      "key": "WATCHLIST_NAME_LABEL",
+      "text": {
+        "en": "Watchlist Name",
+        "fr": "Nom de la liste de suivi",
+        "de": "Watchlist-Name"
+      }
+    },
+    {
+      "key": "WATCHLIST_NAME_PLACEHOLDER",
+      "text": {
+        "en": "Watchlist Name",
+        "fr": "Nom de la liste de suivi",
+        "de": "Watchlist-Name"
+      }
+    },
+    {
+      "key": "WATCHLIST_TAB_HEATMAP",
+      "text": {
+        "en": "Heatmap",
+        "fr": "Carte de chaleur",
+        "de": "Heatmap"
+      }
+    },
+    {
+      "key": "WATCHLIST_TAB_OVERVIEW",
+      "text": {
+        "en": "Overview",
+        "fr": "Aperçu",
+        "de": "Übersicht"
+      }
+    },
+    {
+      "key": "WEB_CONTACT_URL",
+      "text": {
+        "en": "https://bcge-uat.webfg.com/en/contact",
+        "fr": "https://bcge-uat.webfg.com/en/contact",
+        "de": "https://bcge-uat.webfg.com/en/contact"
+      }
+    },
+    {
+      "key": "WEB_DELETE_ACCOUNT_URL",
+      "text": {
+        "en": "https://bcge-uat.webfg.com/en/contact",
+        "fr": "https://bcge-uat.webfg.com/en/contact",
+        "de": "https://bcge-uat.webfg.com/en/contact"
+      }
+    },
+    {
+      "key": "WEB_HELP_URL",
+      "text": {
+        "en": "https://support.bcge.ch/en/trading-online-1816",
+        "fr": "https://support.bcge.ch/en/trading-online-1816",
+        "de": "https://support.bcge.ch/en/trading-online-1816"
+      }
+    },
+    {
+      "key": "WEB_REGISTER_URL",
+      "text": {
+        "en": "https://bcge-uat.webfg.com/en/user/profile/createuser",
+        "fr": "https://bcge-uat.webfg.com/en/user/profile/createuser",
+        "de": "https://bcge-uat.webfg.com/en/user/profile/createuser"
+      }
+    },
+    {
+      "key": "WEB_RESET_PASSWORD_URL",
+      "text": {
+        "en": "https://bcge-uat.webfg.com/en/user/profile/forgetpassword",
+        "fr": "https://bcge-uat.webfg.com/en/user/profile/forgetpassword",
+        "de": "https://bcge-uat.webfg.com/en/user/profile/forgetpassword"
+      }
+    },
+    {
+      "key": "WORLD_MAP_ADD_SVG_HINT",
+      "text": {
+        "en": "Add world-low.svg to the target to see the map.",
+        "fr": "Ajoutez world-low.svg à la cible pour voir la carte.",
+        "de": "Fügen Sie world-low.svg zum Target hinzu, um die Karte zu sehen."
+      }
+    },
+    {
+      "key": "WORLD_MAP_CHANGE_PERCENT",
+      "text": {
+        "en": "Change %",
+        "fr": "Variation %",
+        "de": "Änderung %"
+      }
+    },
+    {
+      "key": "WORLD_MAP_LAST_PRICE",
+      "text": {
+        "en": "Last price",
+        "fr": "Dernier prix",
+        "de": "Letzter Kurs"
+      }
+    },
+    {
+      "key": "WORLD_MAP_TITLE",
+      "text": {
+        "en": "World Map",
+        "fr": "Carte du monde",
+        "de": "Weltkarte"
+      }
+    },
+    {
+      "key": "WORLD_MAP_VIEW_DETAIL",
+      "text": {
+        "en": "View detail",
+        "fr": "Voir le détail",
+        "de": "Details anzeigen"
       }
     }
   ]
