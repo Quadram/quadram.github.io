@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-28T12:31:22.093Z",
+  "date": "2026-05-28T13:57:15.768Z",
   "strings": [
     {
       "key": "ACCOUNT_SECTION_TITLE",
@@ -31,6 +31,22 @@
         "en": "Search instruments",
         "fr": "Rechercher des instruments",
         "de": "Instrumente suchen"
+      }
+    },
+    {
+      "key": "ADD_INSTRUMENT_GLOBAL_SEARCH_BODY",
+      "text": {
+        "en": "Tap the search field, pick an instrument in the global search, then confirm with “Add instrument”.",
+        "fr": "Touchez le champ de recherche, choisissez un instrument dans la recherche globale, puis validez avec « Ajouter un instrument ».",
+        "de": "Tippen Sie auf das Suchfeld, wählen Sie ein Instrument in der globalen Suche und bestätigen Sie mit „Instrument hinzufügen“."
+      }
+    },
+    {
+      "key": "ADD_INSTRUMENT_GLOBAL_SEARCH_PLACEHOLDER",
+      "text": {
+        "en": "Tap to search…",
+        "fr": "Appuyez pour rechercher…",
+        "de": "Tippen zum Suchen…"
       }
     },
     {
@@ -82,6 +98,238 @@
       }
     },
     {
+      "key": "ALERT_CREATE_SUCCESS_TITLE",
+      "text": {
+        "en": "Alert successfully created",
+        "fr": "Alerte créée avec succès",
+        "de": "Alarm wurde erfolgreich erstellt"
+      }
+    },
+    {
+      "key": "ALERT_DELETE_CONFIRMATION",
+      "text": {
+        "en": "Are you sure you want to delete the alert for {name}?",
+        "fr": "Êtes-vous sûr de vouloir supprimer l’alerte pour {name} ?",
+        "de": "Möchten Sie den Alarm für {name} wirklich löschen?"
+      }
+    },
+    {
+      "key": "ALERT_DELETE_ERROR_GENERIC",
+      "text": {
+        "en": "Could not delete the alert. Please try again.",
+        "fr": "Impossible de supprimer l’alerte. Veuillez réessayer.",
+        "de": "Der Alarm konnte nicht gelöscht werden. Bitte versuchen Sie es erneut."
+      }
+    },
+    {
+      "key": "ALERT_DELETE_SUCCESS_TITLE",
+      "text": {
+        "en": "Alert successfully removed",
+        "fr": "Alerte supprimée avec succès",
+        "de": "Alarm wurde erfolgreich gelöscht"
+      }
+    },
+    {
+      "key": "ALERT_EDIT_SUCCESS_TITLE",
+      "text": {
+        "en": "Alert successfully modified",
+        "fr": "Alerte modifiée avec succès",
+        "de": "Alarm wurde erfolgreich geändert"
+      }
+    },
+    {
+      "key": "ALERT_FIELD_COMMENT",
+      "text": {
+        "en": "Comment",
+        "fr": "Commentaire",
+        "de": "Kommentar"
+      }
+    },
+    {
+      "key": "ALERT_FIELD_CURRENT_VALUE",
+      "text": {
+        "en": "Current value",
+        "fr": "Valeur actuelle",
+        "de": "Aktueller Wert"
+      }
+    },
+    {
+      "key": "ALERT_FIELD_LIMIT",
+      "text": {
+        "en": "Limit",
+        "fr": "Limite",
+        "de": "Limit"
+      }
+    },
+    {
+      "key": "ALERT_FIELD_STATUS",
+      "text": {
+        "en": "Status",
+        "fr": "Statut",
+        "de": "Status"
+      }
+    },
+    {
+      "key": "ALERT_FIELD_TYPE",
+      "text": {
+        "en": "Type",
+        "fr": "Type",
+        "de": "Typ"
+      }
+    },
+    {
+      "key": "ALERT_KIND_EVENT",
+      "text": {
+        "en": "Event",
+        "fr": "Événement",
+        "de": "Ereignis"
+      }
+    },
+    {
+      "key": "ALERT_KIND_LOWER",
+      "text": {
+        "en": "Lower",
+        "fr": "Inférieure",
+        "de": "Unter"
+      }
+    },
+    {
+      "key": "ALERT_KIND_UNKNOWN",
+      "text": {
+        "en": "Unknown",
+        "fr": "Inconnu",
+        "de": "Unbekannt"
+      }
+    },
+    {
+      "key": "ALERT_KIND_UPPER",
+      "text": {
+        "en": "Upper",
+        "fr": "Supérieure",
+        "de": "Über"
+      }
+    },
+    {
+      "key": "ALERT_OBSERVATION_ASK",
+      "text": {
+        "en": "Ask",
+        "fr": "Ask",
+        "de": "Ask"
+      }
+    },
+    {
+      "key": "ALERT_OBSERVATION_BID",
+      "text": {
+        "en": "Bid",
+        "fr": "Bid",
+        "de": "Bid"
+      }
+    },
+    {
+      "key": "ALERT_OBSERVATION_DIVIDEND",
+      "text": {
+        "en": "Dividend",
+        "fr": "Dividende",
+        "de": "Dividende"
+      }
+    },
+    {
+      "key": "ALERT_OBSERVATION_OFF_VOLUME",
+      "text": {
+        "en": "Daily volume (off exchange)",
+        "fr": "Volume quotidien (off exchange)",
+        "de": "Tagesvolumen (off exchange)"
+      }
+    },
+    {
+      "key": "ALERT_OBSERVATION_ON_VOLUME",
+      "text": {
+        "en": "Daily volume (on exchange)",
+        "fr": "Volume quotidien (on exchange)",
+        "de": "Tagesvolumen (on exchange)"
+      }
+    },
+    {
+      "key": "ALERT_OBSERVATION_PRICE",
+      "text": {
+        "en": "Price",
+        "fr": "Prix",
+        "de": "Preis"
+      }
+    },
+    {
+      "key": "ALERT_OBSERVATION_VOLUME",
+      "text": {
+        "en": "Daily volume (total)",
+        "fr": "Volume quotidien (total)",
+        "de": "Tagesvolumen (gesamt)"
+      }
+    },
+    {
+      "key": "ALERT_OBSERVATION_YEAR_HIGH",
+      "text": {
+        "en": "Year high",
+        "fr": "Plus haut annuel",
+        "de": "Jahreshoch"
+      }
+    },
+    {
+      "key": "ALERT_OBSERVATION_YEAR_LOW",
+      "text": {
+        "en": "Year low",
+        "fr": "Plus bas annuel",
+        "de": "Jahrestief"
+      }
+    },
+    {
+      "key": "ALERT_STATUS_ACTIVE",
+      "text": {
+        "en": "Active",
+        "fr": "Active",
+        "de": "Aktiv"
+      }
+    },
+    {
+      "key": "ALERT_STATUS_EXPIRED",
+      "text": {
+        "en": "Expired",
+        "fr": "Expirée",
+        "de": "Abgelaufen"
+      }
+    },
+    {
+      "key": "ALERT_STATUS_INACTIVE",
+      "text": {
+        "en": "Inactive",
+        "fr": "Inactive",
+        "de": "Inaktiv"
+      }
+    },
+    {
+      "key": "ALERT_STATUS_RAISED",
+      "text": {
+        "en": "Raised",
+        "fr": "Déclenchée",
+        "de": "Ausgelöst"
+      }
+    },
+    {
+      "key": "ALERT_STATUS_UNKNOWN",
+      "text": {
+        "en": "Expired",
+        "fr": "Expirée",
+        "de": "Abgelaufen"
+      }
+    },
+    {
+      "key": "ALERTS_ACTION_VIEW_EDIT",
+      "text": {
+        "en": "View / Edit",
+        "fr": "Voir / Modifier",
+        "de": "Ansehen / Bearbeiten"
+      }
+    },
+    {
       "key": "ALERTS_EMPTY_MESSAGE",
       "text": {
         "en": "No active alerts.",
@@ -103,6 +351,414 @@
         "en": "Alerts",
         "fr": "Alertes",
         "de": "Alarme"
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_HERO_LINE_1",
+      "text": {
+        "en": "We strive to fulfil",
+        "fr": "Nous nous efforçons de réaliser",
+        "de": "Wir setzen uns dafür ein"
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_HERO_LINE_2",
+      "text": {
+        "en": "the dreams of others",
+        "fr": "les rêves des autres",
+        "de": "die Träume anderer"
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_INVEST_BEST_OF_BODY",
+      "text": {
+        "en": "Entrust the management of your investments to specialists with the Best of discretionary management mandate.",
+        "fr": "Confiez la gestion de vos investissements à des spécialistes avec le mandat Best of.",
+        "de": "Übertragen Sie die Verwaltung Ihrer Anlagen mit dem Best-of-Mandat an Spezialisten."
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_INVEST_BEST_OF_TITLE",
+      "text": {
+        "en": "Best of management mandate",
+        "fr": "Mandat de gestion Best of",
+        "de": "Best-of-Verwaltungsmandat"
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_INVEST_LOMBARD_BODY",
+      "text": {
+        "en": "Attractive and flexible financing guaranteed by your securities.",
+        "fr": "Un financement attractif et flexible garanti par vos titres.",
+        "de": "Attraktive und flexible Finanzierung, besichert durch Ihre Wertpapiere."
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_INVEST_LOMBARD_TITLE",
+      "text": {
+        "en": "Lombard loan",
+        "fr": "Crédit lombard",
+        "de": "Lombardkredit"
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_INVEST_ONLINE_TRADING_BODY",
+      "text": {
+        "en": "Manage your stock market investments autonomously with a simple, practical and competitive platform.",
+        "fr": "Gérez vos investissements boursiers en toute autonomie avec une plateforme simple, pratique et compétitive.",
+        "de": "Verwalten Sie Ihre Börsenanlagen eigenständig mit einer einfachen, praktischen und wettbewerbsfähigen Plattform."
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_INVEST_ONLINE_TRADING_TITLE",
+      "text": {
+        "en": "Online Trading",
+        "fr": "Trading en ligne",
+        "de": "Online Trading"
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_INVEST_OPTIMUM_BODY",
+      "text": {
+        "en": "An institutional investor-style approach across equities, bonds, precious metals, real estate and alternative investments.",
+        "fr": "Une approche de type investisseur institutionnel couvrant actions, obligations, métaux précieux, immobilier et investissements alternatifs.",
+        "de": "Ein institutioneller Ansatz über Aktien, Anleihen, Edelmetalle, Immobilien und alternative Anlagen."
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_INVEST_OPTIMUM_TITLE",
+      "text": {
+        "en": "Optimum management mandates",
+        "fr": "Mandats de gestion Optimum",
+        "de": "Optimum-Verwaltungsmandate"
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_INVEST_SHAREHOLDER_BODY",
+      "text": {
+        "en": "By becoming a shareholder, you can help the Bank prosper, expand, and grow.",
+        "fr": "En devenant actionnaire, vous contribuez à la prospérité et au développement de la Banque.",
+        "de": "Als Aktionär tragen Sie zum Wachstum und zur Entwicklung der Bank bei."
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_INVEST_SHAREHOLDER_TITLE",
+      "text": {
+        "en": "Become a BCGE shareholder",
+        "fr": "Devenir actionnaire BCGE",
+        "de": "BCGE-Aktionär werden"
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_INVEST_SYNCHRONY_BODY",
+      "text": {
+        "en": "A large range of funds based on a sophisticated and solid management approach.",
+        "fr": "Une large gamme de fonds reposant sur une approche de gestion sophistiquée et solide.",
+        "de": "Ein breites Fondsspektrum mit einem anspruchsvollen und soliden Managementansatz."
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_INVEST_SYNCHRONY_TITLE",
+      "text": {
+        "en": "Synchrony funds & Certificates",
+        "fr": "Fonds Synchrony & certificats",
+        "de": "Synchrony Fonds & Zertifikate"
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_INVESTMENTS_TITLE",
+      "text": {
+        "en": "Our investment solutions",
+        "fr": "Nos solutions d'investissement",
+        "de": "Unsere Anlagelösungen"
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_KEY_FIGURES_TITLE",
+      "text": {
+        "en": "BCGE at a glance I Key figures (31.12.2024)",
+        "fr": "BCGE en un coup d'œil I Chiffres clés (31.12.2024)",
+        "de": "BCGE auf einen Blick I Kennzahlen (31.12.2024)"
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_LINK_ADVISORY",
+      "text": {
+        "en": "Investment advisory",
+        "fr": "Conseil en investissement",
+        "de": "Anlageberatung"
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_LINK_BUSINESS_TRANSFER",
+      "text": {
+        "en": "Business transfers",
+        "fr": "Transmission d'entreprise",
+        "de": "Unternehmensnachfolge"
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_LINK_CARDS",
+      "text": {
+        "en": "Exclusive cards",
+        "fr": "Cartes exclusives",
+        "de": "Exklusive Karten"
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_LINK_DISCRETIONARY",
+      "text": {
+        "en": "Discretionary management",
+        "fr": "Gestion discrétionnaire",
+        "de": "Discretionary management"
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_LINK_ESTATE",
+      "text": {
+        "en": "Estate planning",
+        "fr": "Transmission de patrimoine",
+        "de": "Nachfolgeplanung"
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_LINK_FUNDS",
+      "text": {
+        "en": "Investment funds",
+        "fr": "Fonds d'investissement",
+        "de": "Investmentfonds"
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_LINK_LOMBARD",
+      "text": {
+        "en": "Lombard loans",
+        "fr": "Crédit lombard",
+        "de": "Lombardkredite"
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_LINK_MORTGAGES",
+      "text": {
+        "en": "Mortgages",
+        "fr": "Prêts hypothécaires",
+        "de": "Hypotheken"
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_LINK_PENSION",
+      "text": {
+        "en": "Pension planning",
+        "fr": "Planification de la retraite",
+        "de": "Vorsorgeplanung"
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_LINK_SAFE_DEPOSIT",
+      "text": {
+        "en": "Safe deposit boxes",
+        "fr": "Coffres-forts",
+        "de": "Schließfächer"
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_LINK_TRADING",
+      "text": {
+        "en": "Trading services",
+        "fr": "Services de trading",
+        "de": "Trading-Dienstleistungen"
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_ROOTS_BODY",
+      "text": {
+        "en": "For over two centuries, Banque Cantonale de Genève (BCGE) has proven to be solid, trustworthy and always within reach for our clients here in Geneva. As a leading universal bank, we combine Swiss excellence and solid regional ties with a distinctly international outlook.",
+        "fr": "Depuis plus de deux siècles, la Banque Cantonale de Genève (BCGE) s'est révélée solide, digne de confiance et toujours proche de ses clients à Genève. Banque universelle de premier plan, nous allions l'excellence suisse et des racines régionales solides à une ouverture résolument internationale.",
+        "de": "Seit über zwei Jahrhunderten hat sich die Banque Cantonale de Genève (BCGE) als solide, vertrauenswürdig und für unsere Kunden in Genf stets erreichbar erwiesen. Als führende Universalbank verbinden wir Schweizer Exzellenz und starke regionale Verwurzelung mit einer ausgeprägt internationalen Ausrichtung."
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_ROOTS_TITLE",
+      "text": {
+        "en": "Strong roots and a lasting vision",
+        "fr": "Des racines solides et une vision durable",
+        "de": "Starke Wurzeln und eine dauerhafte Vision"
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_SERVICE_BANKING_TITLE",
+      "text": {
+        "en": "Banking services",
+        "fr": "Services bancaires",
+        "de": "Bankdienstleistungen"
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_SERVICE_FINANCING_TITLE",
+      "text": {
+        "en": "Financing and loans",
+        "fr": "Financement et crédits",
+        "de": "Finanzierung und Kredite"
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_SERVICE_INVESTMENT_TITLE",
+      "text": {
+        "en": "Investment solutions",
+        "fr": "Solutions d'investissement",
+        "de": "Anlagelösungen"
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_SERVICE_WEALTH_TITLE",
+      "text": {
+        "en": "Wealth planning",
+        "fr": "Planification patrimoniale",
+        "de": "Vermögensplanung"
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_SERVICES_TITLE",
+      "text": {
+        "en": "Our full range of services",
+        "fr": "Notre gamme complète de services",
+        "de": "Unser umfassendes Dienstleistungsangebot"
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_STAT_CLIENTS_LABEL",
+      "text": {
+        "en": "Clients",
+        "fr": "Clients",
+        "de": "Kunden"
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_STAT_CLIENTS_VALUE",
+      "text": {
+        "en": "+256'000",
+        "fr": "+256'000",
+        "de": "+256'000"
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_STAT_GLOBAL_LABEL",
+      "text": {
+        "en": "A bank with a global outlook",
+        "fr": "Une banque à l'ouverture internationale",
+        "de": "Eine Bank mit globaler Ausrichtung"
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_STAT_ROOTED_LABEL",
+      "text": {
+        "en": "Firmly rooted in Geneva since",
+        "fr": "Fermement ancrée à Genève depuis",
+        "de": "Seit fest in Genf verwurzelt"
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_STAT_ROOTED_VALUE",
+      "text": {
+        "en": "1816",
+        "fr": "1816",
+        "de": "1816"
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_TRUST_BODY",
+      "text": {
+        "en": "Each of our clients is unique. That's why it's important for us to understand your goals so that we can come up with a strategy together and make your objectives a reality. Our goal is to cultivate a close relationship with you built on trust.",
+        "fr": "Chaque client est unique. Il est donc important pour nous de comprendre vos objectifs afin d'élaborer ensemble une stratégie et de les concrétiser. Notre objectif est d'entretenir une relation de proximité fondée sur la confiance.",
+        "de": "Jeder Kunde ist einzigartig. Deshalb ist es uns wichtig, Ihre Ziele zu verstehen, um gemeinsam eine Strategie zu entwickeln und Ihre Vorhaben zu verwirklichen. Unser Ziel ist eine vertrauensvolle, persönliche Beziehung."
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_TRUST_LEAD",
+      "text": {
+        "en": "You are our focus.",
+        "fr": "Vous êtes au centre de nos préoccupations.",
+        "de": "Sie stehen im Mittelpunkt."
+      }
+    },
+    {
+      "key": "BCGE_PRODUCTS_TRUST_TITLE",
+      "text": {
+        "en": "Why put your trust in us?",
+        "fr": "Pourquoi nous faire confiance ?",
+        "de": "Warum uns vertrauen?"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_COL_BENCHMARK_NAME",
+      "text": {
+        "en": "Benchmark name",
+        "fr": "Nom du benchmark",
+        "de": "Benchmark-Name"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_COL_CHANGE",
+      "text": {
+        "en": "Change",
+        "fr": "Variation",
+        "de": "Änderung"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_COL_CURRENCY",
+      "text": {
+        "en": "Currency",
+        "fr": "Devise",
+        "de": "Währung"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_LABEL_DATE",
+      "text": {
+        "en": "Date",
+        "fr": "Date",
+        "de": "Datum"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_LABEL_MATURITY",
+      "text": {
+        "en": "Maturity (years)",
+        "fr": "Échéance (années)",
+        "de": "Laufzeit (Jahre)"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_LABEL_YTD",
+      "text": {
+        "en": "YTD",
+        "fr": "YTD",
+        "de": "YTD"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_SECTION_CENTRAL_BANK_NEWS",
+      "text": {
+        "en": "Central Bank News",
+        "fr": "Actualités des banques centrales",
+        "de": "Nachrichten der Zentralbanken"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_SECTION_TABLE",
+      "text": {
+        "en": "Benchmark rates",
+        "fr": "Taux de référence",
+        "de": "Referenzzinssätze"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_SECTION_YIELD_CURVE",
+      "text": {
+        "en": "Benchmark rates chart",
+        "fr": "Graphique des taux de référence",
+        "de": "Diagramm Referenzzinssätze"
       }
     },
     {
@@ -138,11 +794,35 @@
       }
     },
     {
+      "key": "COMMON_ADD_SHORT",
+      "text": {
+        "en": "Add",
+        "fr": "Ajouter",
+        "de": "Hinzufügen"
+      }
+    },
+    {
       "key": "COMMON_CANCEL",
       "text": {
         "en": "Cancel",
         "fr": "Annuler",
         "de": "Abbrechen"
+      }
+    },
+    {
+      "key": "COMMON_CCY",
+      "text": {
+        "en": "CCY",
+        "fr": "Devise",
+        "de": "Währung"
+      }
+    },
+    {
+      "key": "COMMON_CREATION_DATE",
+      "text": {
+        "en": "Creation date",
+        "fr": "Date de création",
+        "de": "Erstellungsdatum"
       }
     },
     {
@@ -191,6 +871,30 @@
         "en": "No",
         "fr": "Non",
         "de": "Nein"
+      }
+    },
+    {
+      "key": "COMMON_NO_DATA_AVAILABLE",
+      "text": {
+        "en": "No data available.",
+        "fr": "Aucune donnée disponible.",
+        "de": "Keine Daten verfügbar."
+      }
+    },
+    {
+      "key": "COMMON_PRODUCTS",
+      "text": {
+        "en": "Products",
+        "fr": "Produits",
+        "de": "Produkte"
+      }
+    },
+    {
+      "key": "COMMON_PRODUCTS_COUNT",
+      "text": {
+        "en": "{count} products",
+        "fr": "{count} produits",
+        "de": "{count} Produkte"
       }
     },
     {
@@ -282,6 +986,14 @@
       }
     },
     {
+      "key": "CONFIRMATION_GO_BACK",
+      "text": {
+        "en": "Go Back",
+        "fr": "Retour",
+        "de": "Zurück"
+      }
+    },
+    {
       "key": "CONTEXT_MENU_CHANGE_NAME",
       "text": {
         "en": "Change name",
@@ -303,6 +1015,190 @@
         "en": "Create alert",
         "fr": "Create alert",
         "de": "Create alert"
+      }
+    },
+    {
+      "key": "CREATE_ALERT_CANCEL_BUTTON",
+      "text": {
+        "en": "Cancel",
+        "fr": "Annuler",
+        "de": "Abbrechen"
+      }
+    },
+    {
+      "key": "CREATE_ALERT_ERROR_GENERIC",
+      "text": {
+        "en": "Error creating alert",
+        "fr": "Erreur lors de la création de l'alerte",
+        "de": "Fehler beim Erstellen der Warnung"
+      }
+    },
+    {
+      "key": "CREATE_ALERT_FIELD_COMMENT",
+      "text": {
+        "en": "Comment",
+        "fr": "Commentaire",
+        "de": "Kommentar"
+      }
+    },
+    {
+      "key": "CREATE_ALERT_FIELD_COMMENT_PLACEHOLDER",
+      "text": {
+        "en": "Optional",
+        "fr": "Optionnel",
+        "de": "Optional"
+      }
+    },
+    {
+      "key": "CREATE_ALERT_FIELD_EXPIRATION",
+      "text": {
+        "en": "Validity",
+        "fr": "Date d'expiration",
+        "de": "Ablaufdatum"
+      }
+    },
+    {
+      "key": "CREATE_ALERT_FIELD_NOTIFICATIONS",
+      "text": {
+        "en": "Notifications",
+        "fr": "Notifications",
+        "de": "Benachrichtigungen"
+      }
+    },
+    {
+      "key": "CREATE_ALERT_FIELD_OBSERVATION",
+      "text": {
+        "en": "Monitor",
+        "fr": "Observation",
+        "de": "Beobachtung"
+      }
+    },
+    {
+      "key": "CREATE_ALERT_FIELD_TRIGGER",
+      "text": {
+        "en": "Trigger",
+        "fr": "Déclencheur",
+        "de": "Auslöser"
+      }
+    },
+    {
+      "key": "CREATE_ALERT_FIELD_TYPE",
+      "text": {
+        "en": "Type",
+        "fr": "Type",
+        "de": "Typ"
+      }
+    },
+    {
+      "key": "CREATE_ALERT_FIELD_VALUE",
+      "text": {
+        "en": "Value",
+        "fr": "Valeur",
+        "de": "Wert"
+      }
+    },
+    {
+      "key": "CREATE_ALERT_FIELD_VALUE_PLACEHOLDER",
+      "text": {
+        "en": "Enter a value",
+        "fr": "Saisir une valeur",
+        "de": "Wert eingeben"
+      }
+    },
+    {
+      "key": "CREATE_ALERT_NOTIFICATION_EMAIL",
+      "text": {
+        "en": "Email",
+        "fr": "Email",
+        "de": "E-Mail"
+      }
+    },
+    {
+      "key": "CREATE_ALERT_NOTIFICATION_SMS",
+      "text": {
+        "en": "SMS",
+        "fr": "SMS",
+        "de": "SMS"
+      }
+    },
+    {
+      "key": "CREATE_ALERT_SAVE_BUTTON",
+      "text": {
+        "en": "Save",
+        "fr": "Enregistrer",
+        "de": "Speichern"
+      }
+    },
+    {
+      "key": "CREATE_ALERT_TAB_EVENT",
+      "text": {
+        "en": "Event",
+        "fr": "Événement",
+        "de": "Ereignis"
+      }
+    },
+    {
+      "key": "CREATE_ALERT_TAB_PRICE",
+      "text": {
+        "en": "Price",
+        "fr": "Prix",
+        "de": "Preis"
+      }
+    },
+    {
+      "key": "CREATE_ALERT_TAB_VOLUME",
+      "text": {
+        "en": "Volume",
+        "fr": "Volume",
+        "de": "Volumen"
+      }
+    },
+    {
+      "key": "CREATE_ALERT_TITLE",
+      "text": {
+        "en": "Create an alert",
+        "fr": "Créer une alerte",
+        "de": "Alarm erstellen"
+      }
+    },
+    {
+      "key": "CREATE_ALERT_TRIGGER_EVENT",
+      "text": {
+        "en": "Event",
+        "fr": "Événement",
+        "de": "Ereignis"
+      }
+    },
+    {
+      "key": "CREATE_ALERT_TRIGGER_LOWER",
+      "text": {
+        "en": "Lower",
+        "fr": "Inférieure",
+        "de": "Unter"
+      }
+    },
+    {
+      "key": "CREATE_ALERT_TRIGGER_UPPER",
+      "text": {
+        "en": "Upper",
+        "fr": "Supérieure",
+        "de": "Über"
+      }
+    },
+    {
+      "key": "CREATE_ALERT_TYPE_HIGH",
+      "text": {
+        "en": "High",
+        "fr": "Haut",
+        "de": "Hoch"
+      }
+    },
+    {
+      "key": "CREATE_ALERT_TYPE_LOW",
+      "text": {
+        "en": "Low",
+        "fr": "Bas",
+        "de": "Niedrig"
       }
     },
     {
@@ -410,6 +1306,54 @@
       }
     },
     {
+      "key": "FACTSHEET_ADD_TO_PORTFOLIO_DROPDOWN_LABEL",
+      "text": {
+        "en": "Portfolio",
+        "fr": "Portefeuille",
+        "de": "Portfolio"
+      }
+    },
+    {
+      "key": "FACTSHEET_ADD_TO_PORTFOLIO_NEW_BUTTON",
+      "text": {
+        "en": "New portfolio",
+        "fr": "Nouveau portefeuille",
+        "de": "Neues Portfolio"
+      }
+    },
+    {
+      "key": "FACTSHEET_ADD_TO_PORTFOLIO_TITLE",
+      "text": {
+        "en": "Add instrument to portfolio",
+        "fr": "Ajouter un instrument au portefeuille",
+        "de": "Instrument zum Portfolio hinzufügen"
+      }
+    },
+    {
+      "key": "FACTSHEET_ADD_TO_WATCHLIST_DROPDOWN_LABEL",
+      "text": {
+        "en": "Watchlist",
+        "fr": "Liste de suivi",
+        "de": "Watchlist"
+      }
+    },
+    {
+      "key": "FACTSHEET_ADD_TO_WATCHLIST_NEW_BUTTON",
+      "text": {
+        "en": "New watchlist",
+        "fr": "Nouvelle liste",
+        "de": "Neue Watchlist"
+      }
+    },
+    {
+      "key": "FACTSHEET_ADD_TO_WATCHLIST_TITLE",
+      "text": {
+        "en": "Add instrument to watchlist",
+        "fr": "Ajouter un instrument à la liste de suivi",
+        "de": "Instrument zur Watchlist hinzufügen"
+      }
+    },
+    {
       "key": "FACTSHEET_BUTTON_BUY",
       "text": {
         "en": "Buy",
@@ -434,6 +1378,902 @@
       }
     },
     {
+      "key": "FACTSHEET_DOCUMENTATION_FACTSHEET_LABEL",
+      "text": {
+        "en": "Factsheet",
+        "fr": "Factsheet",
+        "de": "Factsheet"
+      }
+    },
+    {
+      "key": "FACTSHEET_DOCUMENTATION_NO_DOCUMENTS",
+      "text": {
+        "en": "No documents",
+        "fr": "No documents",
+        "de": "No documents"
+      }
+    },
+    {
+      "key": "FACTSHEET_DOCUMENTATION_TYPE_MR",
+      "text": {
+        "en": "Factsheet",
+        "fr": "Factsheet",
+        "de": "Factsheet"
+      }
+    },
+    {
+      "key": "FACTSHEET_DOCUMENTATION_TYPE_OTHER",
+      "text": {
+        "en": "Document",
+        "fr": "Document",
+        "de": "Document"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_12WEEKS_HIGH",
+      "text": {
+        "en": "12 Weeks High",
+        "fr": "12 Weeks High",
+        "de": "12 Weeks High"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_12WEEKS_LOW",
+      "text": {
+        "en": "12 Weeks Low",
+        "fr": "12 Weeks Low",
+        "de": "12 Weeks Low"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_1WEEK_HIGH",
+      "text": {
+        "en": "1 Week High",
+        "fr": "1 Week High",
+        "de": "1 Week High"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_1WEEK_LOW",
+      "text": {
+        "en": "1 Week Low",
+        "fr": "1 Week Low",
+        "de": "1 Week Low"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_4WEEKS_HIGH",
+      "text": {
+        "en": "4 Weeks High",
+        "fr": "4 Weeks High",
+        "de": "4 Weeks High"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_4WEEKS_LOW",
+      "text": {
+        "en": "4 Weeks Low",
+        "fr": "4 Weeks Low",
+        "de": "4 Weeks Low"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_ACCUMULATED_INTEREST",
+      "text": {
+        "en": "Accumulated interest",
+        "fr": "Accumulated interest",
+        "de": "Accumulated interest"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_ASSET_MANAGER",
+      "text": {
+        "en": "Asset manager",
+        "fr": "Gestionnaire d'actifs",
+        "de": "Asset Manager"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_CALL_BY_HOLDER",
+      "text": {
+        "en": "Call by Holder",
+        "fr": "Call by Holder",
+        "de": "Call by Holder"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_CALL_BY_ISSUER",
+      "text": {
+        "en": "Call by Issuer",
+        "fr": "Call by Issuer",
+        "de": "Call by Issuer"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_CLOSE_PRICE",
+      "text": {
+        "en": "Close price",
+        "fr": "Cours de clôture",
+        "de": "Schlusskurs"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_COMMODITY_TYPE",
+      "text": {
+        "en": "Commodity Type",
+        "fr": "Type de matière première",
+        "de": "Rohstofftyp"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_COMPANY",
+      "text": {
+        "en": "Company",
+        "fr": "Société",
+        "de": "Unternehmen"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_CONVEXITY",
+      "text": {
+        "en": "Convexity",
+        "fr": "Convexité",
+        "de": "Konvexität"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_COUPON_FREQUENCY",
+      "text": {
+        "en": "Coupon frequency",
+        "fr": "Coupon frequency",
+        "de": "Coupon frequency"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_COUPON_PA",
+      "text": {
+        "en": "Coupon p.a.",
+        "fr": "Coupon p.a.",
+        "de": "Kupon p.a."
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_COUPON_PAYMENT_DATE",
+      "text": {
+        "en": "Coupon payment date",
+        "fr": "Coupon payment date",
+        "de": "Coupon payment date"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_CURRENCY",
+      "text": {
+        "en": "Currency",
+        "fr": "Devise",
+        "de": "Währung"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_DAYCOUNT_CONVENTION",
+      "text": {
+        "en": "Daycount Convention",
+        "fr": "Daycount Convention",
+        "de": "Daycount Convention"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_DENOMINATION",
+      "text": {
+        "en": "Denomination",
+        "fr": "Coupure",
+        "de": "Stückelung"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_DIVIDEND_POLICY",
+      "text": {
+        "en": "Dividend policy",
+        "fr": "Politique de dividende",
+        "de": "Dividendenpolitik"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_DIVIDEND_YIELD",
+      "text": {
+        "en": "Dividend Yield",
+        "fr": "Rendement du dividende",
+        "de": "Dividendenrendite"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_DOMICILE",
+      "text": {
+        "en": "Domicile",
+        "fr": "Domicile",
+        "de": "Domizil"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_DURATION",
+      "text": {
+        "en": "Duration",
+        "fr": "Duration",
+        "de": "Duration"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_EUSIPA_CATEGORY",
+      "text": {
+        "en": "Eusipa category",
+        "fr": "Eusipa category",
+        "de": "Eusipa category"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_EUSIPA_CLASS",
+      "text": {
+        "en": "Eusipa class",
+        "fr": "Eusipa class",
+        "de": "Eusipa class"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_FUND_ASSETS",
+      "text": {
+        "en": "Fund Assets",
+        "fr": "Actifs du fonds",
+        "de": "Fondsvermögen"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_FUND_CATEGORY",
+      "text": {
+        "en": "Fund category",
+        "fr": "Catégorie de fonds",
+        "de": "Fondskategorie"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_FUND_MANAGER",
+      "text": {
+        "en": "Fund manager",
+        "fr": "Gérant du fonds",
+        "de": "Fondsmanager"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_HIGH",
+      "text": {
+        "en": "High",
+        "fr": "Haut",
+        "de": "Hoch"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_HIST_VOL_180_DAYS",
+      "text": {
+        "en": "Hist. Vol 180 days",
+        "fr": "Vol. hist. 180 jours",
+        "de": "Hist. Vola 180 Tage"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_HIST_VOL_1Y",
+      "text": {
+        "en": "Hist. Vol 1Y",
+        "fr": "Vol. hist. 1A",
+        "de": "Hist. Vol 1J"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_HIST_VOL_250_DAYS",
+      "text": {
+        "en": "Hist. Vol 250 days",
+        "fr": "Vol. hist. 250 jours",
+        "de": "Hist. Vola 250 Tage"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_HIST_VOL_30_DAYS",
+      "text": {
+        "en": "Hist. Vol 30 days",
+        "fr": "Vol. hist. 30 jours",
+        "de": "Hist. Vola 30 Tage"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_HIST_VOL_3Y",
+      "text": {
+        "en": "Hist. Vol 3Y",
+        "fr": "Vol. hist. 3A",
+        "de": "Hist. Vol 3J"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_HIST_VOL_5Y",
+      "text": {
+        "en": "Hist. Vol 5Y",
+        "fr": "Vol. hist. 5A",
+        "de": "Hist. Vol 5J"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_HIST_VOL_90_DAYS",
+      "text": {
+        "en": "Hist. Vol 90 days",
+        "fr": "Vol. hist. 90 jours",
+        "de": "Hist. Vola 90 Tage"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_ISIN",
+      "text": {
+        "en": "ISIN",
+        "fr": "ISIN",
+        "de": "ISIN"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_ISSUE_DATE",
+      "text": {
+        "en": "Issue date",
+        "fr": "Date d'émission",
+        "de": "Emissionsdatum"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_ISSUE_PRICE",
+      "text": {
+        "en": "Issue price",
+        "fr": "Issue price",
+        "de": "Issue price"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_ISSUE_VOLUME",
+      "text": {
+        "en": "Amount",
+        "fr": "Amount",
+        "de": "Amount"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_ISSUER",
+      "text": {
+        "en": "Issuer",
+        "fr": "Émetteur",
+        "de": "Emittent"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_LAST_CLOSURE",
+      "text": {
+        "en": "Last closure",
+        "fr": "Dernière clôture",
+        "de": "Letzter Schlusskurs"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_LAST_DIVIDEND",
+      "text": {
+        "en": "Last dividend",
+        "fr": "Dernier dividende",
+        "de": "Letzte Dividende"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_LOW",
+      "text": {
+        "en": "Low",
+        "fr": "Bas",
+        "de": "Tief"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_MARKET_CAP",
+      "text": {
+        "en": "Market Cap",
+        "fr": "Capitalisation boursière",
+        "de": "Marktkapitalisierung"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_MATURITY_DATE",
+      "text": {
+        "en": "Maturity date",
+        "fr": "Date d'échéance",
+        "de": "Fälligkeitsdatum"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_MODIFIED_DURATION",
+      "text": {
+        "en": "Modified duration",
+        "fr": "Duration modifiée",
+        "de": "Modifizierte Duration"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_NAME",
+      "text": {
+        "en": "Name",
+        "fr": "Nom",
+        "de": "Name"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_NAV",
+      "text": {
+        "en": "NAV",
+        "fr": "VNI",
+        "de": "NAV"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_OPENING",
+      "text": {
+        "en": "Opening",
+        "fr": "Ouverture",
+        "de": "Eröffnung"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_PREVIOUS_YEAR_CLOSE",
+      "text": {
+        "en": "Previous year close",
+        "fr": "Clôture année précédente",
+        "de": "Schlusskurs Vorjahr"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_PRODUCT_CATEGORY",
+      "text": {
+        "en": "Product category",
+        "fr": "Product category",
+        "de": "Product category"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_PUBLISHER",
+      "text": {
+        "en": "Publisher",
+        "fr": "Publisher",
+        "de": "Publisher"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_REDEMPTION_AMOUNT",
+      "text": {
+        "en": "Redemption amount",
+        "fr": "Redemption amount",
+        "de": "Redemption amount"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_RESIDUAL_DURATION",
+      "text": {
+        "en": "Residual duration",
+        "fr": "Residual duration",
+        "de": "Residual duration"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_SPREAD_PERCENT",
+      "text": {
+        "en": "Spread %",
+        "fr": "Spread %",
+        "de": "Spread %"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_START_DATE",
+      "text": {
+        "en": "Start date",
+        "fr": "Date de début",
+        "de": "Startdatum"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_STOCK_EXCHANGE",
+      "text": {
+        "en": "Stock exchange",
+        "fr": "Marché",
+        "de": "Börse"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_SYMBOL",
+      "text": {
+        "en": "Symbol",
+        "fr": "Symbole",
+        "de": "Symbol"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_TER",
+      "text": {
+        "en": "TER",
+        "fr": "TER",
+        "de": "TER"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_TYPE",
+      "text": {
+        "en": "Type",
+        "fr": "Type",
+        "de": "Typ"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_UNIT",
+      "text": {
+        "en": "Unit",
+        "fr": "Unité",
+        "de": "Einheit"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_VALUE",
+      "text": {
+        "en": "Value",
+        "fr": "Valeur",
+        "de": "Wert"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_YEAR_HIGH",
+      "text": {
+        "en": "Year high",
+        "fr": "Plus haut annuel",
+        "de": "Jahreshoch"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_YEAR_LOW",
+      "text": {
+        "en": "Year low",
+        "fr": "Plus bas annuel",
+        "de": "Jahrestief"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_YIELD_AT_MATURITY",
+      "text": {
+        "en": "Yield at maturity",
+        "fr": "Rendement à l'échéance",
+        "de": "Rendite bei Fälligkeit"
+      }
+    },
+    {
+      "key": "FACTSHEET_FIELD_YTD",
+      "text": {
+        "en": "YTD %",
+        "fr": "YTD %",
+        "de": "YTD %"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_COL_CHANGE",
+      "text": {
+        "en": "Change",
+        "fr": "Variation",
+        "de": "Änderung"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_COL_CHANGE_PERCENT",
+      "text": {
+        "en": "Change %",
+        "fr": "Variation %",
+        "de": "Änderung %"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_COL_COURSE_TYPE",
+      "text": {
+        "en": "Course type",
+        "fr": "Type",
+        "de": "Typ"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_COL_DATE",
+      "text": {
+        "en": "Date",
+        "fr": "Date",
+        "de": "Datum"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_COL_HIGH",
+      "text": {
+        "en": "High",
+        "fr": "Haut",
+        "de": "Hoch"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_COL_LAST",
+      "text": {
+        "en": "Last",
+        "fr": "Dernier",
+        "de": "Letzter"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_COL_LOW",
+      "text": {
+        "en": "Low",
+        "fr": "Bas",
+        "de": "Tief"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_COL_OPEN",
+      "text": {
+        "en": "Open",
+        "fr": "Ouverture",
+        "de": "Eröffnung"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_COL_VOLUME",
+      "text": {
+        "en": "Volume",
+        "fr": "Volume",
+        "de": "Volumen"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_COURSE_TYPE_AVERAGE",
+      "text": {
+        "en": "Average",
+        "fr": "Moyenne",
+        "de": "Durchschnitt"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_COURSE_TYPE_FIXING",
+      "text": {
+        "en": "Fixing",
+        "fr": "Fixing",
+        "de": "Fixing"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_COURSE_TYPE_OFFICIAL",
+      "text": {
+        "en": "Official",
+        "fr": "Officiel",
+        "de": "Offiziell"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_COURSE_TYPE_TRADE",
+      "text": {
+        "en": "Trade",
+        "fr": "Trade",
+        "de": "Trade"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_COURSE_TYPE_UNKNOWN",
+      "text": {
+        "en": "Unknown",
+        "fr": "Inconnu",
+        "de": "Unbekannt"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_COURSE_TYPE_VALUATION",
+      "text": {
+        "en": "Valuation",
+        "fr": "Évaluation",
+        "de": "Bewertung"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_ERROR_DISPLAY",
+      "text": {
+        "en": "Error displaying data",
+        "fr": "Erreur d'affichage des données",
+        "de": "Fehler bei der Datenanzeige"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_FROM",
+      "text": {
+        "en": "From",
+        "fr": "De",
+        "de": "Von"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_NO_RESULTS",
+      "text": {
+        "en": "No data available.",
+        "fr": "Aucune donnée disponible.",
+        "de": "Keine Daten verfügbar."
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_ONLY_TRADES",
+      "text": {
+        "en": "Show only trades",
+        "fr": "Afficher uniquement les trades",
+        "de": "Nur Trades anzeigen"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_PERIOD_10Y",
+      "text": {
+        "en": "10 years",
+        "fr": "10 ans",
+        "de": "10 Jahre"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_PERIOD_1M",
+      "text": {
+        "en": "1 month",
+        "fr": "1 mois",
+        "de": "1 Monat"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_PERIOD_1Y",
+      "text": {
+        "en": "1 year",
+        "fr": "1 an",
+        "de": "1 Jahr"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_PERIOD_2M",
+      "text": {
+        "en": "2 months",
+        "fr": "2 mois",
+        "de": "2 Monate"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_PERIOD_2Y",
+      "text": {
+        "en": "2 years",
+        "fr": "2 ans",
+        "de": "2 Jahre"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_PERIOD_3M",
+      "text": {
+        "en": "3 months",
+        "fr": "3 mois",
+        "de": "3 Monate"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_PERIOD_3Y",
+      "text": {
+        "en": "3 years",
+        "fr": "3 ans",
+        "de": "3 Jahre"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_PERIOD_5Y",
+      "text": {
+        "en": "5 years",
+        "fr": "5 ans",
+        "de": "5 Jahre"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_PERIOD_6M",
+      "text": {
+        "en": "6 months",
+        "fr": "6 mois",
+        "de": "6 Monate"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_PERIOD_CURRENT_YEAR",
+      "text": {
+        "en": "Current year",
+        "fr": "Année en cours",
+        "de": "Laufendes Jahr"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_PERIOD_CUSTOM",
+      "text": {
+        "en": "Custom period",
+        "fr": "Période personnalisée",
+        "de": "Benutzerdefinierter Zeitraum"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_PERIOD_LABEL",
+      "text": {
+        "en": "Period",
+        "fr": "Période",
+        "de": "Zeitraum"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_RANGE_ERROR",
+      "text": {
+        "en": "\"To\" date cannot be earlier than \"From\".",
+        "fr": "La date \"À\" ne peut pas être antérieure à \"De\".",
+        "de": "Das Datum \"Bis\" darf nicht vor \"Von\" liegen."
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_RANGE_LABEL",
+      "text": {
+        "en": "Range of time",
+        "fr": "Plage de temps",
+        "de": "Zeitraum"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_RANGE_MAX_ONE_YEAR_ERROR",
+      "text": {
+        "en": "The custom range cannot exceed one year.",
+        "fr": "La plage personnalisée ne peut pas dépasser un an.",
+        "de": "Der benutzerdefinierte Zeitraum darf ein Jahr nicht überschreiten."
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_RANGE_SINGLE_DAY_ERROR",
+      "text": {
+        "en": "Select a start and end date spanning more than one day.",
+        "fr": "Sélectionnez une date de début et de fin sur plus d'un jour.",
+        "de": "Wählen Sie ein Start- und Enddatum über mehr als einen Tag."
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_RESULTS_HINT",
+      "text": {
+        "en": "Select a period and tap Update to see results.",
+        "fr": "Sélectionnez une période puis appuyez sur Mettre à jour pour voir les résultats.",
+        "de": "Wählen Sie einen Zeitraum und tippen Sie auf Aktualisieren, um Ergebnisse zu sehen."
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_RESULTS_TITLE",
+      "text": {
+        "en": "Results",
+        "fr": "Résultats",
+        "de": "Ergebnisse"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_TITLE",
+      "text": {
+        "en": "History Data",
+        "fr": "Historique",
+        "de": "Historie"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_TO",
+      "text": {
+        "en": "To",
+        "fr": "À",
+        "de": "Bis"
+      }
+    },
+    {
+      "key": "FACTSHEET_HISTORYDATA_UPDATE",
+      "text": {
+        "en": "Update",
+        "fr": "Mettre à jour",
+        "de": "Aktualisieren"
+      }
+    },
+    {
       "key": "FACTSHEET_NO_NEWS_AVAILABLE",
       "text": {
         "en": "No news available",
@@ -442,11 +2282,219 @@
       }
     },
     {
+      "key": "FACTSHEET_OVERVIEW_ADDITIONAL_DATA_TITLE",
+      "text": {
+        "en": "Additional data",
+        "fr": "Données complémentaires",
+        "de": "Zusätzliche Daten"
+      }
+    },
+    {
+      "key": "FACTSHEET_OVERVIEW_BOND_DATA_TITLE",
+      "text": {
+        "en": "Data",
+        "fr": "Data",
+        "de": "Data"
+      }
+    },
+    {
+      "key": "FACTSHEET_OVERVIEW_BOND_INTEREST_PAYMENT_TITLE",
+      "text": {
+        "en": "Interest payment",
+        "fr": "Interest payment",
+        "de": "Interest payment"
+      }
+    },
+    {
+      "key": "FACTSHEET_OVERVIEW_EUSIPA_CODIFICATION_TITLE",
+      "text": {
+        "en": "Eusipa codification",
+        "fr": "Eusipa codification",
+        "de": "Eusipa codification"
+      }
+    },
+    {
+      "key": "FACTSHEET_OVERVIEW_FUNDAMENTAL_DATA_TITLE",
+      "text": {
+        "en": "Fundamental data",
+        "fr": "Données fondamentales",
+        "de": "Fundamentaldaten"
+      }
+    },
+    {
+      "key": "FACTSHEET_OVERVIEW_KEY_DATA_TITLE",
+      "text": {
+        "en": "Key data",
+        "fr": "Données clés",
+        "de": "Schlüsseldaten"
+      }
+    },
+    {
+      "key": "FACTSHEET_OVERVIEW_LAST_12_MONTHS",
+      "text": {
+        "en": "Last 12 months",
+        "fr": "Derniers 12 mois",
+        "de": "Letzte 12 Monate"
+      }
+    },
+    {
+      "key": "FACTSHEET_OVERVIEW_MARKET_DATA_TITLE",
+      "text": {
+        "en": "Market data",
+        "fr": "Données de marché",
+        "de": "Marktdaten"
+      }
+    },
+    {
+      "key": "FACTSHEET_OVERVIEW_MASTER_DATA_TITLE",
+      "text": {
+        "en": "Master data",
+        "fr": "Données de référence",
+        "de": "Stammdaten"
+      }
+    },
+    {
+      "key": "FACTSHEET_OVERVIEW_NET_ASSET_VALUE_TITLE",
+      "text": {
+        "en": "Net asset value",
+        "fr": "Valeur nette d'inventaire",
+        "de": "Nettoinventarwert"
+      }
+    },
+    {
+      "key": "FACTSHEET_OVERVIEW_PERFORMANCE_COL_HIGH",
+      "text": {
+        "en": "HIGH",
+        "fr": "HAUT",
+        "de": "HOCH"
+      }
+    },
+    {
+      "key": "FACTSHEET_OVERVIEW_PERFORMANCE_COL_LOW",
+      "text": {
+        "en": "LOW",
+        "fr": "BAS",
+        "de": "TIEF"
+      }
+    },
+    {
+      "key": "FACTSHEET_OVERVIEW_PERFORMANCE_COL_PERFORMANCE_PERCENT",
+      "text": {
+        "en": "PERFORMANCE %",
+        "fr": "PERFORMANCE %",
+        "de": "PERFORMANCE %"
+      }
+    },
+    {
+      "key": "FACTSHEET_OVERVIEW_PERFORMANCE_COL_PERIOD",
+      "text": {
+        "en": "PERIOD",
+        "fr": "PÉRIODE",
+        "de": "ZEITRAUM"
+      }
+    },
+    {
+      "key": "FACTSHEET_OVERVIEW_PERFORMANCE_TITLE",
+      "text": {
+        "en": "Performance",
+        "fr": "Performance",
+        "de": "Performance"
+      }
+    },
+    {
+      "key": "FACTSHEET_OVERVIEW_PRICE_RANGE_INTEREST_TITLE",
+      "text": {
+        "en": "Price range for Interest Rates",
+        "fr": "Price range for Interest Rates",
+        "de": "Price range for Interest Rates"
+      }
+    },
+    {
+      "key": "FACTSHEET_OVERVIEW_PRICE_RANGE_TITLE",
+      "text": {
+        "en": "Price range",
+        "fr": "Fourchette de prix",
+        "de": "Preisspanne"
+      }
+    },
+    {
+      "key": "FACTSHEET_OVERVIEW_TECHNICAL_DATA_TITLE",
+      "text": {
+        "en": "Technical data",
+        "fr": "Données techniques",
+        "de": "Technische Daten"
+      }
+    },
+    {
+      "key": "FACTSHEET_OVERVIEW_TRADING_RANGE_TITLE",
+      "text": {
+        "en": "Trading range",
+        "fr": "Fourchette de négociation",
+        "de": "Handelsspanne"
+      }
+    },
+    {
+      "key": "FACTSHEET_PERIOD_12W",
+      "text": {
+        "en": "12 weeks",
+        "fr": "12 semaines",
+        "de": "12 Wochen"
+      }
+    },
+    {
+      "key": "FACTSHEET_PERIOD_1W",
+      "text": {
+        "en": "1 week",
+        "fr": "1 semaine",
+        "de": "1 Woche"
+      }
+    },
+    {
+      "key": "FACTSHEET_PERIOD_26W",
+      "text": {
+        "en": "26 weeks",
+        "fr": "26 semaines",
+        "de": "26 Wochen"
+      }
+    },
+    {
+      "key": "FACTSHEET_PERIOD_4W",
+      "text": {
+        "en": "4 weeks",
+        "fr": "4 semaines",
+        "de": "4 Wochen"
+      }
+    },
+    {
+      "key": "FACTSHEET_PERIOD_52W",
+      "text": {
+        "en": "52 weeks",
+        "fr": "52 semaines",
+        "de": "52 Wochen"
+      }
+    },
+    {
       "key": "FACTSHEET_SECTION_CHART",
       "text": {
         "en": "Chart",
         "fr": "Graphique",
         "de": "Diagramm"
+      }
+    },
+    {
+      "key": "FACTSHEET_SECTION_DESCRIPTION",
+      "text": {
+        "en": "Description",
+        "fr": "Description",
+        "de": "Beschreibung"
+      }
+    },
+    {
+      "key": "FACTSHEET_SECTION_DOCUMENTATION",
+      "text": {
+        "en": "Documentation",
+        "fr": "Documentation",
+        "de": "Dokumentation"
       }
     },
     {
@@ -538,6 +2586,126 @@
       }
     },
     {
+      "key": "FACTSHEET_TREND_LAST_TRANSACTIONS",
+      "text": {
+        "en": "Last transactions",
+        "fr": "Dernières transactions",
+        "de": "Letzte Transaktionen"
+      }
+    },
+    {
+      "key": "FACTSHEET_TYPE_COMMODITIES",
+      "text": {
+        "en": "Commodities",
+        "fr": "Matières premières",
+        "de": "Rohstoffe"
+      }
+    },
+    {
+      "key": "FACTSHEET_TYPE_CURRENCIES",
+      "text": {
+        "en": "Currencies",
+        "fr": "Devises",
+        "de": "Währungen"
+      }
+    },
+    {
+      "key": "FACTSHEET_TYPE_INDEXES",
+      "text": {
+        "en": "Indexes",
+        "fr": "Indices",
+        "de": "Indizes"
+      }
+    },
+    {
+      "key": "GLOBAL_SEARCH_SECTION_BONDS",
+      "text": {
+        "en": "Bonds",
+        "fr": "Obligations",
+        "de": "Anleihen"
+      }
+    },
+    {
+      "key": "GLOBAL_SEARCH_SECTION_COMMODITIES",
+      "text": {
+        "en": "Commodities",
+        "fr": "Matières premières",
+        "de": "Rohstoffe"
+      }
+    },
+    {
+      "key": "GLOBAL_SEARCH_SECTION_CRYPTO",
+      "text": {
+        "en": "Crypto currencies",
+        "fr": "Crypto-monnaies",
+        "de": "Kryptowährungen"
+      }
+    },
+    {
+      "key": "GLOBAL_SEARCH_SECTION_CURRENCIES",
+      "text": {
+        "en": "Currencies",
+        "fr": "Devises",
+        "de": "Währungen"
+      }
+    },
+    {
+      "key": "GLOBAL_SEARCH_SECTION_EQUITIES",
+      "text": {
+        "en": "Equities",
+        "fr": "Actions",
+        "de": "Aktien"
+      }
+    },
+    {
+      "key": "GLOBAL_SEARCH_SECTION_ETFS",
+      "text": {
+        "en": "ETFs",
+        "fr": "ETF",
+        "de": "ETF"
+      }
+    },
+    {
+      "key": "GLOBAL_SEARCH_SECTION_FUNDS",
+      "text": {
+        "en": "Funds",
+        "fr": "Fonds",
+        "de": "Fonds"
+      }
+    },
+    {
+      "key": "GLOBAL_SEARCH_SECTION_INDEXES",
+      "text": {
+        "en": "Indexes",
+        "fr": "Indices",
+        "de": "Indizes"
+      }
+    },
+    {
+      "key": "GLOBAL_SEARCH_SECTION_INTERESTS",
+      "text": {
+        "en": "Interests",
+        "fr": "Taux d’intérêt",
+        "de": "Zinsen"
+      }
+    },
+    {
+      "key": "GLOBAL_SEARCH_SECTION_STRUCTURED_PRODUCTS",
+      "text": {
+        "en": "Derivatives",
+        "fr": "Produits dérivés",
+        "de": "Derivate"
+      }
+    },
+    {
+      "key": "GLOBAL_SEARCH_SECTION_TRADED_FUNDS",
+      "text": {
+        "en": "Traded funds",
+        "fr": "Fonds cotés",
+        "de": "Gehandelte Fonds"
+      }
+    },
+    {
       "key": "INDICES_FILTER_AMERICA",
       "text": {
         "en": "America",
@@ -591,6 +2759,38 @@
         "en": "Indices",
         "fr": "Indices",
         "de": "Indizes"
+      }
+    },
+    {
+      "key": "INIT_PLATFORM_CONFIG_ERROR",
+      "text": {
+        "en": "Could not load platform configuration. Please check your connection and try again.",
+        "fr": "Impossible de charger la configuration de la plateforme. Vérifiez votre connexion et réessayez.",
+        "de": "Plattformkonfiguration konnte nicht geladen werden. Bitte überprüfen Sie Ihre Verbindung und versuchen Sie es erneut."
+      }
+    },
+    {
+      "key": "INTERESTS_BENCHMARK_SARON_CHF",
+      "text": {
+        "en": "Saron CHF",
+        "fr": "Saron CHF",
+        "de": "Saron CHF"
+      }
+    },
+    {
+      "key": "INTERESTS_BENCHMARK_SARON_EUR",
+      "text": {
+        "en": "Saron EUR",
+        "fr": "Saron EUR",
+        "de": "Saron EUR"
+      }
+    },
+    {
+      "key": "INTERESTS_BENCHMARK_SARON_USD",
+      "text": {
+        "en": "Saron USD",
+        "fr": "Saron USD",
+        "de": "Saron USD"
       }
     },
     {
@@ -682,6 +2882,14 @@
       }
     },
     {
+      "key": "MAP_AMERICA",
+      "text": {
+        "en": "America",
+        "fr": "Amérique",
+        "de": "Amerika"
+      }
+    },
+    {
       "key": "MAP_ASIA",
       "text": {
         "en": "Asia",
@@ -714,6 +2922,62 @@
       }
     },
     {
+      "key": "MARKETS_BONDS_COUPON",
+      "text": {
+        "en": "Coupon",
+        "fr": "Coupon",
+        "de": "Kupon"
+      }
+    },
+    {
+      "key": "MARKETS_BONDS_MATURITY",
+      "text": {
+        "en": "Maturity",
+        "fr": "Échéance",
+        "de": "Fälligkeit"
+      }
+    },
+    {
+      "key": "MARKETS_BONDS_YIELD",
+      "text": {
+        "en": "Yield",
+        "fr": "Rendement",
+        "de": "Rendite"
+      }
+    },
+    {
+      "key": "MARKETS_STOCKS_INDEX_LABEL",
+      "text": {
+        "en": "Index",
+        "fr": "Indice",
+        "de": "Index"
+      }
+    },
+    {
+      "key": "MARKETS_TAB_BCGE_PRODUCTS",
+      "text": {
+        "en": "BCGE Products",
+        "fr": "Produits BCGE",
+        "de": "BCGE Produkte"
+      }
+    },
+    {
+      "key": "MARKETS_TAB_BENCHMARK_RATES",
+      "text": {
+        "en": "Benchmark Rates",
+        "fr": "Taux de référence",
+        "de": "Referenzzinssätze"
+      }
+    },
+    {
+      "key": "MARKETS_TAB_BONDS",
+      "text": {
+        "en": "Bonds",
+        "fr": "Obligations",
+        "de": "Anleihen"
+      }
+    },
+    {
       "key": "MARKETS_TAB_COMMODITIES",
       "text": {
         "en": "Commodities",
@@ -738,11 +3002,35 @@
       }
     },
     {
+      "key": "MARKETS_TAB_FUNDS",
+      "text": {
+        "en": "Funds",
+        "fr": "Fonds",
+        "de": "Fonds"
+      }
+    },
+    {
       "key": "MARKETS_TAB_INDICES",
       "text": {
         "en": "Indices",
         "fr": "Indices",
         "de": "Indizes"
+      }
+    },
+    {
+      "key": "MARKETS_TAB_INTERESTS",
+      "text": {
+        "en": "Interests",
+        "fr": "Taux d'intérêt",
+        "de": "Zinssätze"
+      }
+    },
+    {
+      "key": "MARKETS_TAB_STOCKS",
+      "text": {
+        "en": "Stocks",
+        "fr": "Actions",
+        "de": "Aktien"
       }
     },
     {
@@ -826,6 +3114,14 @@
       }
     },
     {
+      "key": "NO_RESULTS_BONDS_MESSAGE",
+      "text": {
+        "en": "No bonds found",
+        "fr": "Aucune obligation trouvée",
+        "de": "Keine Anleihen gefunden"
+      }
+    },
+    {
       "key": "NO_RESULTS_COMMODITIES_MESSAGE",
       "text": {
         "en": "Try searching with the commodity name",
@@ -858,11 +3154,27 @@
       }
     },
     {
+      "key": "NO_RESULTS_FUNDS_MESSAGE",
+      "text": {
+        "en": "No funds found",
+        "fr": "Aucun fonds trouvé",
+        "de": "Keine Fonds gefunden"
+      }
+    },
+    {
       "key": "NO_RESULTS_INDICES_MESSAGE",
       "text": {
         "en": "Try searching with the index name or symbol",
         "fr": "Essayez avec le nom ou le symbole de l’indice",
         "de": "Versuchen Sie es mit dem Namen oder Symbol des Index"
+      }
+    },
+    {
+      "key": "NO_RESULTS_INTERESTS_MESSAGE",
+      "text": {
+        "en": "No interest rates found",
+        "fr": "Aucun taux d'intérêt trouvé",
+        "de": "Keine Zinssätze gefunden"
       }
     },
     {
@@ -879,6 +3191,14 @@
         "en": "Try searching with the portfolio name",
         "fr": "Essayez avec le nom du portefeuille",
         "de": "Versuchen Sie es mit dem Namen des Portfolios"
+      }
+    },
+    {
+      "key": "NO_RESULTS_STOCKS_MESSAGE",
+      "text": {
+        "en": "No stocks found",
+        "fr": "Aucune action trouvée",
+        "de": "Keine Aktien gefunden"
       }
     },
     {
@@ -911,6 +3231,14 @@
         "en": "Search instruments...",
         "fr": "Rechercher des instruments…",
         "de": "Instrumente suchen…"
+      }
+    },
+    {
+      "key": "PORTFOLIO_ADD_INSTRUMENT_SUCCESS_TITLE",
+      "text": {
+        "en": "Instrument added to portfolio",
+        "fr": "Instrument ajouté au portefeuille",
+        "de": "Instrument zum Portfolio hinzugefügt"
       }
     },
     {
@@ -962,6 +3290,38 @@
       }
     },
     {
+      "key": "PORTFOLIO_DISTRIBUTIONS_BY_ASSET_CLASS",
+      "text": {
+        "en": "By asset class",
+        "fr": "Par classe d’actifs",
+        "de": "Nach Anlageklasse"
+      }
+    },
+    {
+      "key": "PORTFOLIO_DISTRIBUTIONS_BY_COUNTRY",
+      "text": {
+        "en": "By country",
+        "fr": "Par pays",
+        "de": "Nach Land"
+      }
+    },
+    {
+      "key": "PORTFOLIO_DISTRIBUTIONS_BY_CURRENCY",
+      "text": {
+        "en": "By currency",
+        "fr": "Par devise",
+        "de": "Nach Währung"
+      }
+    },
+    {
+      "key": "PORTFOLIO_DISTRIBUTIONS_BY_SECTOR",
+      "text": {
+        "en": "By sector",
+        "fr": "Par secteur",
+        "de": "Nach Sektor"
+      }
+    },
+    {
       "key": "PORTFOLIO_EMPTY_MESSAGE",
       "text": {
         "en": "Add instruments to start building your portfolio",
@@ -975,6 +3335,30 @@
         "en": "Empty portfolio",
         "fr": "Portefeuille vide",
         "de": "Leeres Portfolio"
+      }
+    },
+    {
+      "key": "PORTFOLIO_HEATMAP_TITLE",
+      "text": {
+        "en": "Heatmap",
+        "fr": "Heatmap",
+        "de": "Heatmap"
+      }
+    },
+    {
+      "key": "PORTFOLIO_HOLDINGS_DELETE_INSTRUMENT_COMING_SOON",
+      "text": {
+        "en": "Deleting instruments will be available soon.",
+        "fr": "Deleting instruments will be available soon.",
+        "de": "Deleting instruments will be available soon."
+      }
+    },
+    {
+      "key": "PORTFOLIO_HOLDINGS_TOTAL",
+      "text": {
+        "en": "Total",
+        "fr": "Total",
+        "de": "Gesamt"
       }
     },
     {
@@ -999,6 +3383,214 @@
         "en": "Portfolio Name",
         "fr": "Nom du portefeuille",
         "de": "Portfolioname"
+      }
+    },
+    {
+      "key": "PORTFOLIO_SECTION_COMING_SOON",
+      "text": {
+        "en": "Coming soon",
+        "fr": "Bientôt disponible",
+        "de": "Kommt bald"
+      }
+    },
+    {
+      "key": "PORTFOLIO_TAB_DISTRIBUTIONS",
+      "text": {
+        "en": "Distributions",
+        "fr": "Distributions",
+        "de": "Ausschüttungen"
+      }
+    },
+    {
+      "key": "PORTFOLIO_TAB_HEAT",
+      "text": {
+        "en": "Heat",
+        "fr": "Heat",
+        "de": "Heat"
+      }
+    },
+    {
+      "key": "PORTFOLIO_TAB_HOLDINGS",
+      "text": {
+        "en": "Holdings",
+        "fr": "Holdings",
+        "de": "Positionen"
+      }
+    },
+    {
+      "key": "PORTFOLIO_TAB_OVERVIEW",
+      "text": {
+        "en": "Overview",
+        "fr": "Aperçu",
+        "de": "Übersicht"
+      }
+    },
+    {
+      "key": "PORTFOLIO_TAB_TRANSACTIONS",
+      "text": {
+        "en": "Transactions",
+        "fr": "Transactions",
+        "de": "Transaktionen"
+      }
+    },
+    {
+      "key": "PORTFOLIO_TX_DELETE_CONFIRMATION",
+      "text": {
+        "en": "Are you sure you want to delete the transaction for {name}?",
+        "fr": "Êtes-vous sûr de vouloir supprimer la transaction pour {name} ?",
+        "de": "Möchten Sie die Transaktion für {name} wirklich löschen?"
+      }
+    },
+    {
+      "key": "PORTFOLIO_TX_DELETE_SUCCESS_TITLE",
+      "text": {
+        "en": "Transaction deleted",
+        "fr": "Transaction supprimée",
+        "de": "Transaktion gelöscht"
+      }
+    },
+    {
+      "key": "PORTFOLIO_TX_EDIT_SUCCESS_TITLE",
+      "text": {
+        "en": "Transaction updated",
+        "fr": "Transaction modifiée",
+        "de": "Transaktion aktualisiert"
+      }
+    },
+    {
+      "key": "PORTFOLIO_TX_FIELD_AMOUNT",
+      "text": {
+        "en": "Quantity",
+        "fr": "Quantité",
+        "de": "Menge"
+      }
+    },
+    {
+      "key": "PORTFOLIO_TX_FIELD_COMMENT",
+      "text": {
+        "en": "Comment",
+        "fr": "Commentaire",
+        "de": "Kommentar"
+      }
+    },
+    {
+      "key": "PORTFOLIO_TX_FIELD_COURSE",
+      "text": {
+        "en": "Cost price",
+        "fr": "Prix de revient",
+        "de": "Anschaffungskosten"
+      }
+    },
+    {
+      "key": "PORTFOLIO_TX_FIELD_DATE",
+      "text": {
+        "en": "Date",
+        "fr": "Date",
+        "de": "Datum"
+      }
+    },
+    {
+      "key": "PORTFOLIO_TX_FIELD_FEE",
+      "text": {
+        "en": "Fee",
+        "fr": "Frais",
+        "de": "Gebühr"
+      }
+    },
+    {
+      "key": "PORTFOLIO_TX_FIELD_INSTRUMENT",
+      "text": {
+        "en": "Name, Symbol or ISIN",
+        "fr": "Nom, symbole ou ISIN",
+        "de": "Name, Symbol oder ISIN"
+      }
+    },
+    {
+      "key": "PORTFOLIO_TX_FIELD_NOMINAL",
+      "text": {
+        "en": "Nominal",
+        "fr": "Nominal",
+        "de": "Nominal"
+      }
+    },
+    {
+      "key": "PORTFOLIO_TX_FIELD_RATE",
+      "text": {
+        "en": "Rate",
+        "fr": "Taux",
+        "de": "Kurs"
+      }
+    },
+    {
+      "key": "PORTFOLIO_TX_GRID_ACTUAL",
+      "text": {
+        "en": "Actual",
+        "fr": "Actuel",
+        "de": "Aktuell"
+      }
+    },
+    {
+      "key": "PORTFOLIO_TX_GRID_PERF_PCT",
+      "text": {
+        "en": "Perf %",
+        "fr": "Perf %",
+        "de": "Perf %"
+      }
+    },
+    {
+      "key": "PORTFOLIO_TX_GRID_PERF_PCT_FEES",
+      "text": {
+        "en": "Perf % (fees included)",
+        "fr": "Perf % (frais inclus)",
+        "de": "Perf % (Gebühren inkl.)"
+      }
+    },
+    {
+      "key": "PORTFOLIO_TX_GRID_PRICE",
+      "text": {
+        "en": "Price",
+        "fr": "Prix",
+        "de": "Preis"
+      }
+    },
+    {
+      "key": "PORTFOLIO_TX_GRID_PROFIT_LOSS",
+      "text": {
+        "en": "Profit/Loss",
+        "fr": "Profit/Perte",
+        "de": "Gewinn/Verlust"
+      }
+    },
+    {
+      "key": "PORTFOLIO_TX_INSTRUMENT_PLACEHOLDER",
+      "text": {
+        "en": "Tap to search…",
+        "fr": "Touchez pour rechercher…",
+        "de": "Tippen zum Suchen…"
+      }
+    },
+    {
+      "key": "PORTFOLIO_TX_MENU",
+      "text": {
+        "en": "Transaction menu",
+        "fr": "Menu de transaction",
+        "de": "Transaktionsmenü"
+      }
+    },
+    {
+      "key": "PORTFOLIO_TX_MENU_EDIT",
+      "text": {
+        "en": "Edit transaction",
+        "fr": "Modifier transaction",
+        "de": "Transaktion bearbeiten"
+      }
+    },
+    {
+      "key": "PORTFOLIO_TX_SUCCESS_TITLE",
+      "text": {
+        "en": "Transaction added",
+        "fr": "Transaction ajoutée",
+        "de": "Transaktion hinzugefügt"
       }
     },
     {
@@ -1178,6 +3770,14 @@
       }
     },
     {
+      "key": "SEARCH_BONDS_PLACEHOLDER",
+      "text": {
+        "en": "Search bonds",
+        "fr": "Rechercher des obligations",
+        "de": "Anleihen suchen"
+      }
+    },
+    {
       "key": "SEARCH_COMMODITIES_PLACEHOLDER",
       "text": {
         "en": "Search commodities...",
@@ -1210,6 +3810,14 @@
       }
     },
     {
+      "key": "SEARCH_FUNDS_PLACEHOLDER",
+      "text": {
+        "en": "Search funds",
+        "fr": "Rechercher des fonds",
+        "de": "Fonds suchen"
+      }
+    },
+    {
       "key": "SEARCH_HOME_PLACEHOLDER",
       "text": {
         "en": "Search by name, symbol, ISIN",
@@ -1226,6 +3834,14 @@
       }
     },
     {
+      "key": "SEARCH_INTERESTS_PLACEHOLDER",
+      "text": {
+        "en": "Search interest rates",
+        "fr": "Rechercher des taux d'intérêt",
+        "de": "Zinssätze suchen"
+      }
+    },
+    {
       "key": "SEARCH_PLACEHOLDER",
       "text": {
         "en": "Search news...",
@@ -1239,6 +3855,14 @@
         "en": "Search portfolios...",
         "fr": "Rechercher des portefeuilles…",
         "de": "Portfolios suchen…"
+      }
+    },
+    {
+      "key": "SEARCH_STOCKS_PLACEHOLDER",
+      "text": {
+        "en": "Search stocks",
+        "fr": "Rechercher des actions",
+        "de": "Aktien suchen"
       }
     },
     {
@@ -1279,6 +3903,14 @@
         "en": "Help",
         "fr": "Aide",
         "de": "Hilfe"
+      }
+    },
+    {
+      "key": "SETTINGS_MODIFY_PROFILE_OPTION",
+      "text": {
+        "en": "Modify profile",
+        "fr": "Modifier le profil",
+        "de": "Profil bearbeiten"
       }
     },
     {
@@ -1548,9 +4180,9 @@
     {
       "key": "TOPFLOP_FLOP_TITLE",
       "text": {
-        "en": "Flop 3",
-        "fr": "Flop 3",
-        "de": "Flop 3"
+        "en": "Top 3 Decliners",
+        "fr": "Top 3 en baisse",
+        "de": "Top 3 Verlierer"
       }
     },
     {
@@ -1572,9 +4204,9 @@
     {
       "key": "TOPFLOP_TOP_TITLE",
       "text": {
-        "en": "Top 3",
-        "fr": "Top 3",
-        "de": "Top 3"
+        "en": "Top 3 Gainers",
+        "fr": "Top 3 en hausse",
+        "de": "Top 3 Gewinner"
       }
     },
     {
@@ -1607,6 +4239,14 @@
         "en": "Search instruments...",
         "fr": "Rechercher des instruments…",
         "de": "Instrumente suchen…"
+      }
+    },
+    {
+      "key": "WATCHLIST_ADD_INSTRUMENT_SUCCESS_TITLE",
+      "text": {
+        "en": "Instrument added to watchlist",
+        "fr": "Instrument ajouté à la liste",
+        "de": "Instrument zur Watchlist hinzugefügt"
       }
     },
     {
@@ -1666,6 +4306,22 @@
       }
     },
     {
+      "key": "WATCHLIST_DELETE_INSTRUMENT_CONFIRMATION",
+      "text": {
+        "en": "Are you sure you want to remove this instrument from the watchlist?",
+        "fr": "Êtes-vous sûr de vouloir supprimer cet instrument de la liste de suivi ?",
+        "de": "Möchten Sie dieses Instrument wirklich aus der Watchlist entfernen?"
+      }
+    },
+    {
+      "key": "WATCHLIST_DELETE_INSTRUMENT_CONFIRMATION_NAMED",
+      "text": {
+        "en": "Are you sure you want to delete «{name}» from the watchlist?",
+        "fr": "Êtes-vous sûr de vouloir supprimer «{name}» de la liste de suivi ?",
+        "de": "Möchten Sie «{name}» wirklich aus der Watchlist löschen?"
+      }
+    },
+    {
       "key": "WATCHLIST_EMPTY_MESSAGE",
       "text": {
         "en": "Add instruments to start building your watchlist",
@@ -1693,8 +4349,16 @@
       "key": "WATCHLIST_HEATMAP_TITLE",
       "text": {
         "en": "Watchlist Heatmap",
-        "fr": "Carte de chaleur de la liste de suivi",
+        "fr": "Heatmap de la liste de cours",
         "de": "Watchlist-Heatmap"
+      }
+    },
+    {
+      "key": "WATCHLIST_LIMIT_REACHED_MESSAGE",
+      "text": {
+        "en": "You can’t add a new instrument because this watchlist has reached the maximum of 25 instruments.",
+        "fr": "Impossible d’ajouter un nouvel instrument : cette liste a atteint le maximum de 25 instruments.",
+        "de": "Sie können kein neues Instrument hinzufügen, da diese Watchlist das Maximum von 25 Instrumenten erreicht hat."
       }
     },
     {
@@ -1725,7 +4389,7 @@
       "key": "WATCHLIST_TAB_HEATMAP",
       "text": {
         "en": "Heatmap",
-        "fr": "Carte de chaleur",
+        "fr": "Heatmap",
         "de": "Heatmap"
       }
     },
@@ -1749,7 +4413,7 @@
       "key": "WATCHLISTS_OPTION",
       "text": {
         "en": "Watchlists",
-        "fr": "Listes de suivi",
+        "fr": "Listes de cours",
         "de": "Watchlists"
       }
     },
@@ -1757,16 +4421,152 @@
       "key": "WATCHLISTS_TITLE",
       "text": {
         "en": "Watchlists",
-        "fr": "Listes de suivi",
+        "fr": "Listes de cours",
         "de": "Watchlists"
+      }
+    },
+    {
+      "key": "WEB_BCGE_PRODUCTS_ADVISORY_URL",
+      "text": {
+        "en": "https://www.bcge.ch/en/mandats-gestion-discretionnaire-wealth-management",
+        "fr": "https://www.bcge.ch/fr/mandats-gestion-discretionnaire-wealth-management",
+        "de": "https://www.bcge.ch/de/mandats-gestion-discretionnaire-wealth-management"
+      }
+    },
+    {
+      "key": "WEB_BCGE_PRODUCTS_BEST_OF_URL",
+      "text": {
+        "en": "https://www.bcge.ch/en/best-of",
+        "fr": "https://www.bcge.ch/fr/best-of",
+        "de": "https://www.bcge.ch/de/best-of"
+      }
+    },
+    {
+      "key": "WEB_BCGE_PRODUCTS_BUSINESS_TRANSFER_URL",
+      "text": {
+        "en": "https://www.bcge.ch/en/mise-en-valeur-transmission-entreprises",
+        "fr": "https://www.bcge.ch/fr/mise-en-valeur-transmission-entreprises",
+        "de": "https://www.bcge.ch/de/mise-en-valeur-transmission-entreprises"
+      }
+    },
+    {
+      "key": "WEB_BCGE_PRODUCTS_CARDS_URL",
+      "text": {
+        "en": "https://www.bcge.ch/en/visa-platinum",
+        "fr": "https://www.bcge.ch/fr/visa-platinum",
+        "de": "https://www.bcge.ch/de/visa-platinum"
+      }
+    },
+    {
+      "key": "WEB_BCGE_PRODUCTS_DISCRETIONARY_URL",
+      "text": {
+        "en": "https://www.bcge.ch/en/best-of",
+        "fr": "https://www.bcge.ch/fr/best-of",
+        "de": "https://www.bcge.ch/de/best-of"
+      }
+    },
+    {
+      "key": "WEB_BCGE_PRODUCTS_ESTATE_URL",
+      "text": {
+        "en": "https://www.bcge.ch/en/transmission-de-patrimoine",
+        "fr": "https://www.bcge.ch/fr/transmission-de-patrimoine",
+        "de": "https://www.bcge.ch/de/transmission-de-patrimoine"
+      }
+    },
+    {
+      "key": "WEB_BCGE_PRODUCTS_FUNDS_URL",
+      "text": {
+        "en": "https://www.bcge.ch/en/fonds-synchrony-certificats",
+        "fr": "https://www.bcge.ch/fr/fonds-synchrony-certificats",
+        "de": "https://www.bcge.ch/de/fonds-synchrony-certificats"
+      }
+    },
+    {
+      "key": "WEB_BCGE_PRODUCTS_LOMBARD_INVEST_URL",
+      "text": {
+        "en": "https://www.bcge.ch/en/credit-lombard-emprunter-private-banking",
+        "fr": "https://www.bcge.ch/fr/credit-lombard-emprunter-private-banking",
+        "de": "https://www.bcge.ch/de/credit-lombard-emprunter-private-banking"
+      }
+    },
+    {
+      "key": "WEB_BCGE_PRODUCTS_LOMBARD_URL",
+      "text": {
+        "en": "https://www.bcge.ch/en/credit-lombard-emprunter-private-banking",
+        "fr": "https://www.bcge.ch/fr/credit-lombard-emprunter-private-banking",
+        "de": "https://www.bcge.ch/de/credit-lombard-emprunter-private-banking"
+      }
+    },
+    {
+      "key": "WEB_BCGE_PRODUCTS_MORTGAGES_URL",
+      "text": {
+        "en": "https://www.bcge.ch/en/prets-hypothecaires",
+        "fr": "https://www.bcge.ch/fr/prets-hypothecaires",
+        "de": "https://www.bcge.ch/de/prets-hypothecaires"
+      }
+    },
+    {
+      "key": "WEB_BCGE_PRODUCTS_ONLINE_TRADING_URL",
+      "text": {
+        "en": "https://www.bcge.ch/en/trading-online-1816",
+        "fr": "https://www.bcge.ch/fr/trading-online-1816",
+        "de": "https://www.bcge.ch/de/trading-online-1816"
+      }
+    },
+    {
+      "key": "WEB_BCGE_PRODUCTS_OPTIMUM_URL",
+      "text": {
+        "en": "https://www.bcge.ch/en/mandats-gestion-discretionnaire-wealth-management",
+        "fr": "https://www.bcge.ch/fr/mandats-gestion-discretionnaire-wealth-management",
+        "de": "https://www.bcge.ch/de/mandats-gestion-discretionnaire-wealth-management"
+      }
+    },
+    {
+      "key": "WEB_BCGE_PRODUCTS_PENSION_URL",
+      "text": {
+        "en": "https://www.bcge.ch/en/produits-prevoyance",
+        "fr": "https://www.bcge.ch/fr/produits-prevoyance",
+        "de": "https://www.bcge.ch/de/produits-prevoyance"
+      }
+    },
+    {
+      "key": "WEB_BCGE_PRODUCTS_SAFE_DEPOSIT_URL",
+      "text": {
+        "en": "https://www.bcge.ch/en/coffres-forts",
+        "fr": "https://www.bcge.ch/fr/coffres-forts",
+        "de": "https://www.bcge.ch/de/coffres-forts"
+      }
+    },
+    {
+      "key": "WEB_BCGE_PRODUCTS_SHAREHOLDER_URL",
+      "text": {
+        "en": "https://www.bcge.ch/en/devenir-actionnaire-bcge",
+        "fr": "https://www.bcge.ch/fr/devenir-actionnaire-bcge",
+        "de": "https://www.bcge.ch/de/devenir-actionnaire-bcge"
+      }
+    },
+    {
+      "key": "WEB_BCGE_PRODUCTS_SYNCHRONY_URL",
+      "text": {
+        "en": "https://www.bcge.ch/en/fonds-synchrony-certificats",
+        "fr": "https://www.bcge.ch/fr/fonds-synchrony-certificats",
+        "de": "https://www.bcge.ch/de/fonds-synchrony-certificats"
+      }
+    },
+    {
+      "key": "WEB_BCGE_PRODUCTS_TRADING_URL",
+      "text": {
+        "en": "https://www.bcge.ch/en/investir",
+        "fr": "https://www.bcge.ch/fr/investir",
+        "de": "https://www.bcge.ch/de/investir"
       }
     },
     {
       "key": "WEB_CONTACT_URL",
       "text": {
-        "en": "https://bcge-uat.webfg.com/en/contact",
-        "fr": "https://bcge-uat.webfg.com/en/contact",
-        "de": "https://bcge-uat.webfg.com/en/contact"
+        "en": "https://www.bcge.ch/en/contact",
+        "fr": "https://www.bcge.ch/en/contact",
+        "de": "https://www.bcge.ch/en/contact"
       }
     },
     {
@@ -1786,19 +4586,27 @@
       }
     },
     {
+      "key": "WEB_MODIFY_PROFILE_URL",
+      "text": {
+        "en": "https://bcge-uat.webfg.com/en/user/profile?content=true",
+        "fr": "https://bcge-uat.webfg.com/fr/user/profile?content=true",
+        "de": "https://bcge-uat.webfg.com/de/user/profile?content=true"
+      }
+    },
+    {
       "key": "WEB_REGISTER_URL",
       "text": {
-        "en": "https://bcge-uat.webfg.com/en/user/profile/createuser",
-        "fr": "https://bcge-uat.webfg.com/en/user/profile/createuser",
-        "de": "https://bcge-uat.webfg.com/en/user/profile/createuser"
+        "en": "https://bcge-uat.webfg.com/en/user/profile/createuser?content=true",
+        "fr": "https://bcge-uat.webfg.com/fr/user/profile/createuser?content=true",
+        "de": "https://bcge-uat.webfg.com/de/user/profile/createuser?content=true"
       }
     },
     {
       "key": "WEB_RESET_PASSWORD_URL",
       "text": {
-        "en": "https://bcge-uat.webfg.com/en/user/profile/forgetpassword",
-        "fr": "https://bcge-uat.webfg.com/en/user/profile/forgetpassword",
-        "de": "https://bcge-uat.webfg.com/en/user/profile/forgetpassword"
+        "en": "https://bcge-uat.webfg.com/en/user/profile/forgetpassword?content=true",
+        "fr": "https://bcge-uat.webfg.com/fr/user/profile/forgetpassword?content=true",
+        "de": "https://bcge-uat.webfg.com/de/user/profile/forgetpassword?content=true"
       }
     },
     {
@@ -1823,6 +4631,94 @@
         "en": "Last price",
         "fr": "Dernier prix",
         "de": "Letzter Kurs"
+      }
+    },
+    {
+      "key": "WORLD_MAP_LEGEND_DARK_GREEN",
+      "text": {
+        "en": "≥1%",
+        "fr": "≥1%",
+        "de": "≥1%"
+      }
+    },
+    {
+      "key": "WORLD_MAP_LEGEND_DARK_RED",
+      "text": {
+        "en": "<-1%",
+        "fr": "<-1%",
+        "de": "<-1%"
+      }
+    },
+    {
+      "key": "WORLD_MAP_LEGEND_LIGHT_GREEN",
+      "text": {
+        "en": "≥0%",
+        "fr": "≥0%",
+        "de": "≥0%"
+      }
+    },
+    {
+      "key": "WORLD_MAP_LEGEND_LIGHT_RED",
+      "text": {
+        "en": "-1–-0.1%",
+        "fr": "-1–-0.1%",
+        "de": "-1–-0.1%"
+      }
+    },
+    {
+      "key": "WORLD_MAP_LEGEND_NEUTRAL",
+      "text": {
+        "en": "±0.1%",
+        "fr": "±0.1%",
+        "de": "±0.1%"
+      }
+    },
+    {
+      "key": "WORLD_MAP_LEGEND_ORANGE",
+      "text": {
+        "en": "<0%",
+        "fr": "<0%",
+        "de": "<0%"
+      }
+    },
+    {
+      "key": "WORLD_MAP_LEGEND_TICK_MAX",
+      "text": {
+        "en": ">2%",
+        "fr": ">2%",
+        "de": ">2%"
+      }
+    },
+    {
+      "key": "WORLD_MAP_LEGEND_TICK_MIN",
+      "text": {
+        "en": "<-2%",
+        "fr": "<-2%",
+        "de": "<-2%"
+      }
+    },
+    {
+      "key": "WORLD_MAP_LEGEND_TICK_NEG_ONE",
+      "text": {
+        "en": "-1%",
+        "fr": "-1%",
+        "de": "-1%"
+      }
+    },
+    {
+      "key": "WORLD_MAP_LEGEND_TICK_POS_ONE",
+      "text": {
+        "en": "1%",
+        "fr": "1%",
+        "de": "1%"
+      }
+    },
+    {
+      "key": "WORLD_MAP_LEGEND_TICK_ZERO",
+      "text": {
+        "en": "0%",
+        "fr": "0%",
+        "de": "0%"
       }
     },
     {
