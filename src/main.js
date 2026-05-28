@@ -27,6 +27,7 @@ const state = {
 
 // Editing state
 let _editingKey = null;  // null = adding, string = editing
+let _importData = null;  // validated entries waiting for import confirmation
 
 // ═══════════════════════════════════════════════════════════════════
 // INIT
@@ -65,6 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (e.key === 'Escape') {
       closeModal();
       closeDeleteModal();
+      closeImportModal();
     }
   });
 
@@ -74,6 +76,9 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   document.getElementById('delete-overlay').addEventListener('click', e => {
     if (e.target === document.getElementById('delete-overlay')) closeDeleteModal();
+  });
+  document.getElementById('import-overlay').addEventListener('click', e => {
+    if (e.target === document.getElementById('import-overlay')) closeImportModal();
   });
 
   // Warn before closing with unsaved changes
@@ -152,7 +157,40 @@ async function login(pat) {
     throw new Error(`Access denied — @${username} is not a member of the "${CONFIG.org}" organization.`);
   }
 
-  // Step 3 — store session
+  // Step 3 — verify write access to the target repository
+  const repoRes = await fetch(
+    `https://api.github.com/repos/${CONFIG.owner}/${CONFIG.repo}`,
+    {
+      headers: {
+        'Authorization': `token ${pat}`,
+        'Accept': 'application/vnd.github+json',
+      },
+    },
+  );
+
+  if (repoRes.status === 404) {
+    throw new Error(
+      `Repository "${CONFIG.owner}/${CONFIG.repo}" was not found. ` +
+      'Make sure your PAT is scoped to the correct repository and organization.'
+    );
+  }
+  if (!repoRes.ok) {
+    throw new Error(
+      `Could not access repository "${CONFIG.owner}/${CONFIG.repo}": ${repoRes.status} ${repoRes.statusText}.`
+    );
+  }
+
+  const repoData = await repoRes.json();
+  // `permissions` is returned by GitHub when the requester has at least read access.
+  // If the field is present and push is false the token is read-only.
+  if (repoData.permissions && repoData.permissions.push === false) {
+    throw new Error(
+      `Your token has read-only access to "${CONFIG.repo}". ` +
+      'Regenerate your PAT and set "Repository permissions → Contents" to "Read & Write".'
+    );
+  }
+
+  // Step 4 — store session
   state.pat  = pat;
   state.user = { login: username, name };
   localStorage.setItem('gh_pat', pat);
@@ -239,7 +277,16 @@ async function saveTranslations(commitMessage) {
 
   if (!putRes.ok) {
     const errBody = await putRes.json().catch(() => ({}));
-    throw new Error(errBody.message || `Save failed: ${putRes.status}`);
+    const base = errBody.message || `Save failed: ${putRes.status}`;
+    let hint = '';
+    if (putRes.status === 403) {
+      hint = ' — Your PAT may lack "Contents: Read & Write" permission. Regenerate it with the correct scopes.';
+    } else if (putRes.status === 409) {
+      hint = ' — The file was modified by someone else. Click Refresh and try again.';
+    } else if (putRes.status === 422) {
+      hint = ' — Validation error. The file SHA may be stale; try Refresh then save again.';
+    }
+    throw new Error(base + hint);
   }
 
   const result = await putRes.json();
@@ -340,6 +387,220 @@ function handleExport() {
 }
 
 // ═══════════════════════════════════════════════════════════════════
+// IMPORT
+// ═══════════════════════════════════════════════════════════════════
+
+/** Opens the OS file picker by triggering the hidden <input type="file">. */
+function handleImport() {
+  // Reset so the same file can be re-selected after a failed attempt
+  const input = document.getElementById('import-file-input');
+  input.value = '';
+  input.click();
+}
+
+/** Called when the user picks a file from the OS dialog. */
+function onImportFileSelected(input) {
+  const file = input.files[0];
+  if (!file) return;
+
+  const reader = new FileReader();
+  reader.onload = (e) => {
+    let parsed;
+    try {
+      parsed = JSON.parse(/** @type {string} */ (e.target.result));
+    } catch {
+      showToast('error', 'Invalid JSON', 'The selected file could not be parsed as JSON. Please check its contents.');
+      return;
+    }
+    const result = validateImportData(parsed);
+    openImportModal(result);
+  };
+  reader.readAsText(file, 'UTF-8');
+}
+
+/**
+ * Validates parsed JSON against the expected translation structure.
+ * Accepts both:
+ *   - Flat array:              [ { key, text: { en, fr, de } }, … ]
+ *   - Wrapper object:  { date?, strings: [ { key, text: { en, fr, de } }, … ] }
+ *
+ * @returns {{ valid: boolean, entries: Array, errors: string[], warnings: string[], total: number }}
+ */
+function validateImportData(parsed) {
+  let rawEntries;
+
+  if (Array.isArray(parsed)) {
+    rawEntries = parsed;
+  } else if (parsed && typeof parsed === 'object' && Array.isArray(parsed.strings)) {
+    rawEntries = parsed.strings;
+  } else {
+    return {
+      valid: false,
+      entries: [],
+      errors: [
+        'Unexpected JSON structure. The file must be either a plain array ' +
+        'or an object with a "strings" array (e.g. { "strings": [ … ] }).',
+      ],
+      warnings: [],
+      total: 0,
+    };
+  }
+
+  const errors   = [];
+  const warnings = [];
+  const entries  = [];
+  const seenKeys = new Set();
+
+  rawEntries.forEach((entry, i) => {
+    const label = `Entry #${i + 1}`;
+
+    if (!entry || typeof entry !== 'object' || Array.isArray(entry)) {
+      errors.push(`${label}: must be a JSON object.`);
+      return;
+    }
+
+    const { key, text } = entry;
+
+    // ── key validation ──────────────────────────────────────────────
+    if (key === undefined || key === null) {
+      errors.push(`${label}: missing required "key" field.`);
+      return;
+    }
+    if (typeof key !== 'string' || key.trim() === '') {
+      errors.push(`${label}: "key" must be a non-empty string.`);
+      return;
+    }
+    if (/\s/.test(key)) {
+      errors.push(`${label}: key "${key}" contains whitespace — keys must have no spaces.`);
+      return;
+    }
+
+    const normalizedKey = key.toUpperCase();
+
+    if (seenKeys.has(normalizedKey)) {
+      errors.push(`Duplicate key: "${normalizedKey}" appears more than once in the file.`);
+      return;
+    }
+    seenKeys.add(normalizedKey);
+
+    // ── text validation ─────────────────────────────────────────────
+    if (!text || typeof text !== 'object' || Array.isArray(text)) {
+      errors.push(`${label} ("${normalizedKey}"): missing or invalid "text" object.`);
+      return;
+    }
+
+    const normalizedText = {
+      en: typeof text.en === 'string' ? text.en : '',
+      fr: typeof text.fr === 'string' ? text.fr : '',
+      de: typeof text.de === 'string' ? text.de : '',
+    };
+
+    const emptyLangs = ['en', 'fr', 'de'].filter(l => !normalizedText[l]);
+    if (emptyLangs.length > 0) {
+      warnings.push(`"${normalizedKey}": empty or missing translation for ${emptyLangs.join(', ')}.`);
+    }
+
+    entries.push({ key: normalizedKey, text: normalizedText });
+  });
+
+  return {
+    valid: errors.length === 0,
+    entries,
+    errors,
+    warnings,
+    total: rawEntries.length,
+  };
+}
+
+/** Populates and opens the import confirmation modal. */
+function openImportModal(result) {
+  _importData = result.valid ? result.entries : null;
+
+  const MAX_SHOWN = 4; // max error/warning lines shown before truncating
+
+  let html = '';
+
+  // ── valid entries row ────────────────────────────────────────────
+  if (result.valid) {
+    html += `
+      <div style="display:flex; align-items:center; gap:8px; padding:8px 10px; border-radius:6px;
+                  background:rgba(87,193,123,.1); margin-bottom:8px;">
+        <svg width="14" height="14" fill="var(--success)" viewBox="0 0 16 16">
+          <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+        </svg>
+        <span style="font-size:.88rem; color:var(--text-muted);">
+          <strong>${result.entries.length}</strong> valid entr${result.entries.length === 1 ? 'y' : 'ies'} ready to import
+        </span>
+      </div>`;
+  }
+
+  // ── warnings block ───────────────────────────────────────────────
+  if (result.warnings.length > 0) {
+    const shown   = result.warnings.slice(0, MAX_SHOWN);
+    const overflow = result.warnings.length - MAX_SHOWN;
+    html += `
+      <div style="padding:8px 10px; border-radius:6px;
+                  background:rgba(227,144,41,.1); margin-bottom:8px;">
+        <div style="display:flex; align-items:center; gap:8px; margin-bottom:4px;">
+          <svg width="14" height="14" fill="var(--warning)" viewBox="0 0 16 16">
+            <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+          </svg>
+          <span style="font-size:.85rem; font-weight:600; color:var(--text-muted);">
+            ${result.warnings.length} warning${result.warnings.length === 1 ? '' : 's'} — empty translations
+          </span>
+        </div>
+        <ul style="margin:0; padding-left:20px; font-size:.8rem; color:var(--text-dim); line-height:1.7;">
+          ${shown.map(w => `<li>${esc(w)}</li>`).join('')}
+          ${overflow > 0 ? `<li style="list-style:none; margin-left:-4px; color:var(--text-dim);">…and ${overflow} more</li>` : ''}
+        </ul>
+      </div>`;
+  }
+
+  // ── errors block ─────────────────────────────────────────────────
+  if (result.errors.length > 0) {
+    const shown    = result.errors.slice(0, MAX_SHOWN);
+    const overflow = result.errors.length - MAX_SHOWN;
+    html += `
+      <div style="padding:8px 10px; border-radius:6px;
+                  background:var(--danger-bg, rgba(239,68,68,.08)); margin-bottom:8px;">
+        <div style="display:flex; align-items:center; gap:8px; margin-bottom:4px;">
+          <svg width="14" height="14" fill="var(--danger, #ef4444)" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995z"/>
+          </svg>
+          <span style="font-size:.85rem; font-weight:600; color:var(--text-muted);">
+            ${result.errors.length} error${result.errors.length === 1 ? '' : 's'} — import blocked
+          </span>
+        </div>
+        <ul style="margin:0; padding-left:20px; font-size:.8rem; color:var(--text-dim); line-height:1.7;">
+          ${shown.map(e => `<li>${esc(e)}</li>`).join('')}
+          ${overflow > 0 ? `<li style="list-style:none; margin-left:-4px; color:var(--text-dim);">…and ${overflow} more</li>` : ''}
+        </ul>
+      </div>`;
+  }
+
+  document.getElementById('import-summary').innerHTML = html;
+  document.getElementById('import-confirm-btn').disabled = !result.valid;
+
+  document.getElementById('import-overlay').classList.add('open');
+}
+
+function closeImportModal() {
+  document.getElementById('import-overlay').classList.remove('open');
+  _importData = null;
+}
+
+function confirmImport() {
+  if (!_importData) return;
+  const count = _importData.length;
+  state.translations = _importData;
+  setUnsaved(true);
+  renderTable();
+  closeImportModal();
+  showToast('success', 'Import successful', `${count} entr${count === 1 ? 'y' : 'ies'} imported — remember to Save to GitHub.`);
+}
+
+// ═══════════════════════════��═══════════════════════════════════════
 // ADD / EDIT MODAL
 // ═══════════════════════════════════════════════════════════════════
 function openModal(key) {
