@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-28T10:14:08.069Z",
+  "date": "2026-05-28T10:14:27.949Z",
   "strings": [
     {
       "key": "ACCOUNT_SECTION_TITLE",
@@ -1527,14 +1527,6 @@
         "en": "Valor",
         "fr": "Valor",
         "de": "Valor"
-      }
-    },
-    {
-      "key": "TEST",
-      "text": {
-        "en": "tes",
-        "fr": "tesd",
-        "de": "test"
       }
     },
     {
