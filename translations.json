@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-24T09:56:45.823Z",
+  "date": "2026-07-24T10:10:12.806Z",
   "strings": [
     {
       "key": "ACCOUNT_SECTION_TITLE",
@@ -135,6 +135,14 @@
         "en": "Alert successfully modified",
         "fr": "Alerte modifiée avec succès",
         "de": "Alarm wurde erfolgreich geändert"
+      }
+    },
+    {
+      "key": "ALERT_ERROR_LOADING",
+      "text": {
+        "en": "Error loading alert",
+        "fr": "Erreur lors du chargement de l'alerte",
+        "de": "Fehler beim Laden der Warnmeldung"
       }
     },
     {
@@ -322,6 +330,14 @@
       }
     },
     {
+      "key": "ALERT_TX_DETAIL",
+      "text": {
+        "en": "Alert detail",
+        "fr": "Détails de l'alerte",
+        "de": "Alarmdetails"
+      }
+    },
+    {
       "key": "ALERT_TX_PLACEHOLDER_COMMENT",
       "text": {
         "en": "Add a comment...",
@@ -343,6 +359,14 @@
         "en": "No active alerts.",
         "fr": "Aucune alerte active.",
         "de": "Keine aktiven Alarme."
+      }
+    },
+    {
+      "key": "ALERTS_ERROR_LOADING",
+      "text": {
+        "en": "Error loading alerts",
+        "fr": "Erreur lors du chargement des alertes",
+        "de": "Fehler beim Laden der Benachrichtigungen"
       }
     },
     {
@@ -698,6 +722,14 @@
       }
     },
     {
+      "key": "BCGE_TITLE",
+      "text": {
+        "en": "BCGE",
+        "fr": "BCGE",
+        "de": "BCGE"
+      }
+    },
+    {
       "key": "BENCHMARK_RATES_COL_BENCHMARK_NAME",
       "text": {
         "en": "Benchmark name",
@@ -842,6 +874,14 @@
       }
     },
     {
+      "key": "COMMON_EDIT_ALERT",
+      "text": {
+        "en": "Edit Alert",
+        "fr": "Modifier l'alerte",
+        "de": "Bearbeitungsbenachrichtigung"
+      }
+    },
+    {
       "key": "COMMON_ERROR",
       "text": {
         "en": "Error",
@@ -855,6 +895,14 @@
         "en": "Home",
         "fr": "Accueil",
         "de": "Start"
+      }
+    },
+    {
+      "key": "COMMON_MARKET",
+      "text": {
+        "en": "MARKET",
+        "fr": "MARCHÉ",
+        "de": "MARKT"
       }
     },
     {
