@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-24T08:48:15.646Z",
+  "date": "2026-07-24T08:49:57.670Z",
   "strings": [
     {
       "key": "ACCOUNT_SECTION_TITLE",
@@ -4159,14 +4159,6 @@
         "en": "Valor",
         "fr": "Valor",
         "de": "Valor"
-      }
-    },
-    {
-      "key": "TEST",
-      "text": {
-        "en": "test",
-        "fr": "test",
-        "de": "test"
       }
     },
     {
