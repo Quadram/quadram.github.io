@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-24T08:49:57.670Z",
+  "date": "2026-07-24T09:56:45.823Z",
   "strings": [
     {
       "key": "ACCOUNT_SECTION_TITLE",
@@ -319,6 +319,14 @@
         "en": "Expired",
         "fr": "Expirée",
         "de": "Abgelaufen"
+      }
+    },
+    {
+      "key": "ALERT_TX_PLACEHOLDER_COMMENT",
+      "text": {
+        "en": "Add a comment...",
+        "fr": "Ajouter un commentaire...",
+        "de": "Kommentar hinzufügen..."
       }
     },
     {
@@ -3434,6 +3442,14 @@
       }
     },
     {
+      "key": "PORTFOLIO_TX__10_MAX",
+      "text": {
+        "en": "You can create a maximum of 10 portfolios",
+        "fr": "Vous pouvez créer un maximum de 10 portefeuilles.",
+        "de": "Sie können maximal 10 Portfolios erstellen."
+      }
+    },
+    {
       "key": "PORTFOLIO_TX_DELETE_CONFIRMATION",
       "text": {
         "en": "Are you sure you want to delete the transaction for {name}?",
@@ -3583,6 +3599,14 @@
         "en": "Edit transaction",
         "fr": "Modifier transaction",
         "de": "Transaktion bearbeiten"
+      }
+    },
+    {
+      "key": "PORTFOLIO_TX_PLACEHOLDER_COMMENT",
+      "text": {
+        "en": "Add a comment...",
+        "fr": "Ajouter un commentaire...",
+        "de": "Kommentar hinzufügen..."
       }
     },
     {
