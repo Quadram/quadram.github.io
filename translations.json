@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-24T10:10:12.806Z",
+  "date": "2026-08-06T11:21:38.011Z",
   "strings": [
     {
       "key": "ACCOUNT_SECTION_TITLE",
@@ -1335,6 +1335,14 @@
         "en": "Default portfolio",
         "fr": "Portefeuille par défaut",
         "de": "Standardportfolio"
+      }
+    },
+    {
+      "key": "DISTRIBUTION_ERROR_LOADING",
+      "text": {
+        "en": "Error loading distributions",
+        "fr": "Erreur lors du chargement des distributions",
+        "de": "Fehler beim Laden der Distributionen"
       }
     },
     {
