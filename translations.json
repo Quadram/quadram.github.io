@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-06T12:17:39.429Z",
+  "date": "2026-08-06T12:37:28.515Z",
   "strings": [
     {
       "key": "ACCOUNT_SECTION_TITLE",
@@ -4247,6 +4247,14 @@
         "en": "Valor",
         "fr": "Valor",
         "de": "Valor"
+      }
+    },
+    {
+      "key": "TAP_TO_SEARCH",
+      "text": {
+        "en": "Tap to search...",
+        "fr": "Appuyez pour rechercher...",
+        "de": "Zum Suchen tippen..."
       }
     },
     {
