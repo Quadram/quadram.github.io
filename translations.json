@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-06T11:21:38.011Z",
+  "date": "2026-08-06T11:58:04.120Z",
   "strings": [
     {
       "key": "ACCOUNT_SECTION_TITLE",
@@ -1335,14 +1335,6 @@
         "en": "Default portfolio",
         "fr": "Portefeuille par défaut",
         "de": "Standardportfolio"
-      }
-    },
-    {
-      "key": "DISTRIBUTION_ERROR_LOADING",
-      "text": {
-        "en": "Error loading distributions",
-        "fr": "Erreur lors du chargement des distributions",
-        "de": "Fehler beim Laden der Distributionen"
       }
     },
     {
@@ -2831,6 +2823,14 @@
         "en": "Could not load platform configuration. Please check your connection and try again.",
         "fr": "Impossible de charger la configuration de la plateforme. Vérifiez votre connexion et réessayez.",
         "de": "Plattformkonfiguration konnte nicht geladen werden. Bitte überprüfen Sie Ihre Verbindung und versuchen Sie es erneut."
+      }
+    },
+    {
+      "key": "INSTRUMENT_TYPE_NOT_SUPPORTED_IN_DETAIL",
+      "text": {
+        "en": "Instrument type not supported in detail",
+        "fr": "",
+        "de": ""
       }
     },
     {
