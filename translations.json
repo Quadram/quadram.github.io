@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-06T11:58:04.120Z",
+  "date": "2026-08-06T12:17:39.429Z",
   "strings": [
     {
       "key": "ACCOUNT_SECTION_TITLE",
@@ -2829,8 +2829,8 @@
       "key": "INSTRUMENT_TYPE_NOT_SUPPORTED_IN_DETAIL",
       "text": {
         "en": "Instrument type not supported in detail",
-        "fr": "",
-        "de": ""
+        "fr": "Type d'instrument non pris en charge au niveau du détail",
+        "de": "Nicht unterstützter Instrumententyp im Detail"
       }
     },
     {
@@ -3271,6 +3271,14 @@
         "en": "Try searching with the watchlist name",
         "fr": "Essayez avec le nom de la liste",
         "de": "Versuchen Sie es mit dem Namen der Watchlist"
+      }
+    },
+    {
+      "key": "NO_TRANSACTIONS",
+      "text": {
+        "en": "There are no transactions.",
+        "fr": "Aucune transaction",
+        "de": "Es gibt keine Transaktionen."
       }
     },
     {
