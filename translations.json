@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-06T12:37:28.515Z",
+  "date": "2026-08-18T10:29:37.769Z",
   "strings": [
     {
       "key": "ACCOUNT_SECTION_TITLE",
@@ -4661,8 +4661,8 @@
       "key": "WEB_CONTACT_URL",
       "text": {
         "en": "https://www.bcge.ch/en/contact",
-        "fr": "https://www.bcge.ch/en/contact",
-        "de": "https://www.bcge.ch/en/contact"
+        "fr": "https://www.bcge.ch/fr/contact",
+        "de": "https://www.bcge.ch/de/contact"
       }
     },
     {
@@ -4677,8 +4677,8 @@
       "key": "WEB_HELP_URL",
       "text": {
         "en": "https://support.bcge.ch/en/trading-online-1816",
-        "fr": "https://support.bcge.ch/en/trading-online-1816",
-        "de": "https://support.bcge.ch/en/trading-online-1816"
+        "fr": "https://support.bcge.ch/fr/trading-online-1816",
+        "de": "https://support.bcge.ch/de/trading-online-1816"
       }
     },
     {
