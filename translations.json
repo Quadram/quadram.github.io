@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-18T10:29:37.769Z",
+  "date": "2026-09-08T11:26:26.357Z",
   "strings": [
     {
       "key": "ACCOUNT_SECTION_TITLE",
@@ -730,6 +730,38 @@
       }
     },
     {
+      "key": "BENCHMARK_RATES_AREA_AMERICA",
+      "text": {
+        "en": "America",
+        "fr": "Amérique",
+        "de": "Amerika"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_AREA_ASIA",
+      "text": {
+        "en": "Asia",
+        "fr": "Asie",
+        "de": "Asien"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_AREA_NORTHERN_EUROPE",
+      "text": {
+        "en": "Northern Europe",
+        "fr": "Europe du Nord",
+        "de": "Nordeuropa"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_AREA_WESTERN_EUROPE",
+      "text": {
+        "en": "Western Europe",
+        "fr": "Europe occidentale",
+        "de": "Westeuropa"
+      }
+    },
+    {
       "key": "BENCHMARK_RATES_COL_BENCHMARK_NAME",
       "text": {
         "en": "Benchmark name",
@@ -751,6 +783,230 @@
         "en": "Currency",
         "fr": "Devise",
         "de": "Währung"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_COUNTRY_AUSTRALIA",
+      "text": {
+        "en": "Australia",
+        "fr": "Australie",
+        "de": "Australien"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_COUNTRY_AUSTRIA",
+      "text": {
+        "en": "Austria",
+        "fr": "Autriche",
+        "de": "Österreich"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_COUNTRY_BELGIUM",
+      "text": {
+        "en": "Belgium",
+        "fr": "Belgique",
+        "de": "Belgien"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_COUNTRY_BRAZIL",
+      "text": {
+        "en": "Brazil",
+        "fr": "Brésil",
+        "de": "Brasilien"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_COUNTRY_CANADA",
+      "text": {
+        "en": "Canada",
+        "fr": "Canada",
+        "de": "Kanada"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_COUNTRY_COLOMBIA",
+      "text": {
+        "en": "Colombia",
+        "fr": "Colombie",
+        "de": "Kolumbien"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_COUNTRY_DENMARK",
+      "text": {
+        "en": "Denmark",
+        "fr": "Danemark",
+        "de": "Dänemark"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_COUNTRY_FINLAND",
+      "text": {
+        "en": "Finland",
+        "fr": "Finlande",
+        "de": "Finnland"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_COUNTRY_FRANCE",
+      "text": {
+        "en": "France",
+        "fr": "France",
+        "de": "Frankreich"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_COUNTRY_GERMANY",
+      "text": {
+        "en": "Germany",
+        "fr": "Allemagne",
+        "de": "Deutschland"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_COUNTRY_GREAT_BRITAIN",
+      "text": {
+        "en": "Great Britain",
+        "fr": "Grande-Bretagne",
+        "de": "Großbritannien"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_COUNTRY_GREECE",
+      "text": {
+        "en": "Greece",
+        "fr": "Grèce",
+        "de": "Griechenland"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_COUNTRY_HONG_KONG",
+      "text": {
+        "en": "Hong Kong",
+        "fr": "Hong Kong",
+        "de": "Hongkong"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_COUNTRY_IRELAND",
+      "text": {
+        "en": "Ireland",
+        "fr": "Irlande",
+        "de": "Irland"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_COUNTRY_ITALY",
+      "text": {
+        "en": "Italy",
+        "fr": "Italie",
+        "de": "Italien"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_COUNTRY_JAPAN",
+      "text": {
+        "en": "Japan",
+        "fr": "Japon",
+        "de": "Japan"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_COUNTRY_LUXEMBOURG",
+      "text": {
+        "en": "Luxembourg",
+        "fr": "Luxembourg",
+        "de": "Luxemburg"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_COUNTRY_MEXICO",
+      "text": {
+        "en": "Mexico",
+        "fr": "Mexique",
+        "de": "Mexiko"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_COUNTRY_NETHERLANDS",
+      "text": {
+        "en": "Netherlands",
+        "fr": "Pays-Bas",
+        "de": "Niederlande"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_COUNTRY_NEW_ZEALAND",
+      "text": {
+        "en": "New Zealand",
+        "fr": "Nouvelle-Zélande",
+        "de": "Neuseeland"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_COUNTRY_NORWAY",
+      "text": {
+        "en": "Norway",
+        "fr": "Norvège",
+        "de": "Norwegen"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_COUNTRY_POLAND",
+      "text": {
+        "en": "Poland",
+        "fr": "Pologne",
+        "de": "Polen"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_COUNTRY_PORTUGAL",
+      "text": {
+        "en": "Portugal",
+        "fr": "Portugal",
+        "de": "Portugal"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_COUNTRY_SPAIN",
+      "text": {
+        "en": "Spain",
+        "fr": "Espagne",
+        "de": "Spanien"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_COUNTRY_SWEDEN",
+      "text": {
+        "en": "Sweden",
+        "fr": "Suède",
+        "de": "Schweden"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_COUNTRY_SWITZERLAND",
+      "text": {
+        "en": "Switzerland",
+        "fr": "Suisse",
+        "de": "Schweiz"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_COUNTRY_USA",
+      "text": {
+        "en": "USA",
+        "fr": "États-Unis",
+        "de": "USA"
+      }
+    },
+    {
+      "key": "BENCHMARK_RATES_COUNTRY_VENEZUELA",
+      "text": {
+        "en": "Venezuela",
+        "fr": "Venezuela",
+        "de": "Venezuela"
       }
     },
     {
@@ -1007,6 +1263,38 @@
         "en": "Close",
         "fr": "Close",
         "de": "Close"
+      }
+    },
+    {
+      "key": "COMPOSITION_COL_CHANGE",
+      "text": {
+        "en": "Change",
+        "fr": "Variation",
+        "de": "Änderung"
+      }
+    },
+    {
+      "key": "COMPOSITION_COL_CURRENCY_ISIN",
+      "text": {
+        "en": "Currency | ISIN",
+        "fr": "Devise | ISIN",
+        "de": "Währung | ISIN"
+      }
+    },
+    {
+      "key": "COMPOSITION_COL_DATETIME",
+      "text": {
+        "en": "Date/Time",
+        "fr": "Date/heure",
+        "de": "Datum/Zeit"
+      }
+    },
+    {
+      "key": "COMPOSITION_COL_NAME",
+      "text": {
+        "en": "Name",
+        "fr": "Nom",
+        "de": "Name"
       }
     },
     {
@@ -1426,6 +1714,54 @@
       }
     },
     {
+      "key": "FACTSHEET_CHART_PERIOD_1D",
+      "text": {
+        "en": "1D",
+        "fr": "1J",
+        "de": "1T"
+      }
+    },
+    {
+      "key": "FACTSHEET_CHART_PERIOD_1M",
+      "text": {
+        "en": "1M",
+        "fr": "1M",
+        "de": "1M"
+      }
+    },
+    {
+      "key": "FACTSHEET_CHART_PERIOD_1Y",
+      "text": {
+        "en": "1Y",
+        "fr": "1A",
+        "de": "1J"
+      }
+    },
+    {
+      "key": "FACTSHEET_CHART_PERIOD_3Y",
+      "text": {
+        "en": "3Y",
+        "fr": "3A",
+        "de": "3J"
+      }
+    },
+    {
+      "key": "FACTSHEET_CHART_PERIOD_5Y",
+      "text": {
+        "en": "5Y",
+        "fr": "5A",
+        "de": "5J"
+      }
+    },
+    {
+      "key": "FACTSHEET_CHART_PERIOD_6M",
+      "text": {
+        "en": "6M",
+        "fr": "6M",
+        "de": "6M"
+      }
+    },
+    {
       "key": "FACTSHEET_DETAIL_CONTENT_PLACEHOLDER",
       "text": {
         "en": "Detail Content",
@@ -1463,6 +1799,30 @@
         "en": "Document",
         "fr": "Document",
         "de": "Document"
+      }
+    },
+    {
+      "key": "FACTSHEET_DOCUMENTATION_TYPE_PR",
+      "text": {
+        "en": "Prospectus & contracts",
+        "fr": "Prospectus & contracts",
+        "de": "Prospectus & contracts"
+      }
+    },
+    {
+      "key": "FACTSHEET_DOCUMENTATION_TYPE_PRP",
+      "text": {
+        "en": "PRIIPS-KID",
+        "fr": "PRIIPS-KID",
+        "de": "PRIIPS-KID"
+      }
+    },
+    {
+      "key": "FACTSHEET_ERROR_LOADING",
+      "text": {
+        "en": "Error loading instrument data",
+        "fr": "Erreur lors du chargement des données de l'instrument",
+        "de": "Fehler beim Laden der Instrumentendaten"
       }
     },
     {
@@ -4013,32 +4373,32 @@
       "key": "STRUCTURED_PRODUCTS_ASK",
       "text": {
         "en": "Ask",
-        "fr": "Ask",
-        "de": "Ask"
+        "fr": "Vente",
+        "de": "Verkauf"
       }
     },
     {
       "key": "STRUCTURED_PRODUCTS_ASK_SIZE",
       "text": {
         "en": "Ask Size",
-        "fr": "Ask Size",
-        "de": "Ask Size"
+        "fr": "Volume de vente",
+        "de": "Verkaufsvolumen"
       }
     },
     {
       "key": "STRUCTURED_PRODUCTS_BID",
       "text": {
         "en": "Bid",
-        "fr": "Bid",
-        "de": "Bid"
+        "fr": "Achat",
+        "de": "Kauf"
       }
     },
     {
       "key": "STRUCTURED_PRODUCTS_BID_SIZE",
       "text": {
         "en": "Bid Size",
-        "fr": "Bid Size",
-        "de": "Bid Size"
+        "fr": "Volume d'achat",
+        "de": "Kaufvolumen"
       }
     },
     {
@@ -4157,16 +4517,16 @@
       "key": "STRUCTURED_PRODUCTS_MARKET_ASK",
       "text": {
         "en": "Ask",
-        "fr": "Ask",
-        "de": "Ask"
+        "fr": "Vente",
+        "de": "Verkauf"
       }
     },
     {
       "key": "STRUCTURED_PRODUCTS_MARKET_BID",
       "text": {
         "en": "Bid",
-        "fr": "Bid",
-        "de": "Bid"
+        "fr": "Achat",
+        "de": "Kauf"
       }
     },
     {
@@ -4271,6 +4631,14 @@
         "en": "Day Change",
         "fr": "Day Change",
         "de": "Day Change"
+      }
+    },
+    {
+      "key": "TOPFLOP_ERROR_LOADING",
+      "text": {
+        "en": "Error loading top/flop",
+        "fr": "Erreur lors du chargement du top/flop",
+        "de": "Fehler beim Laden von Top/Flop"
       }
     },
     {
