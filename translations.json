@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-08T11:26:26.357Z",
+  "date": "2026-09-23T09:51:35.061Z",
   "strings": [
     {
       "key": "ACCOUNT_SECTION_TITLE",
@@ -3031,6 +3031,30 @@
         "en": "Indexes",
         "fr": "Indices",
         "de": "Indizes"
+      }
+    },
+    {
+      "key": "FUNDS_DOMICILE_SELECTOR",
+      "text": {
+        "en": "Your Dom./HQ",
+        "fr": "Votre Dom./Siège",
+        "de": "Ihr Dom./Sitz"
+      }
+    },
+    {
+      "key": "FUNDS_PROFILE_SELECTOR",
+      "text": {
+        "en": "Your profile",
+        "fr": "Votre profil",
+        "de": "Ihr profil"
+      }
+    },
+    {
+      "key": "FUNDS_TYPE_MENU_SELECTOR",
+      "text": {
+        "en": "Funds Type",
+        "fr": "Type de fonds",
+        "de": "Fondstyp"
       }
     },
     {
