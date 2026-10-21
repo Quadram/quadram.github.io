@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-23T09:51:35.061Z",
+  "date": "2026-10-21T11:08:01.848Z",
   "strings": [
     {
       "key": "ACCOUNT_SECTION_TITLE",
@@ -388,17 +388,17 @@
     {
       "key": "BCGE_PRODUCTS_HERO_LINE_1",
       "text": {
-        "en": "We strive to fulfil",
-        "fr": "Nous nous efforçons de réaliser",
-        "de": "Wir setzen uns dafür ein"
+        "en": "Our aspiration,",
+        "fr": "Notre aspiration,",
+        "de": "Unser Anspruch:"
       }
     },
     {
       "key": "BCGE_PRODUCTS_HERO_LINE_2",
       "text": {
-        "en": "the dreams of others",
-        "fr": "les rêves des autres",
-        "de": "die Träume anderer"
+        "en": "to make the aspirations of others a reality",
+        "fr": "concrétiser celles des autres",
+        "de": "die Ziele anderer verwirklichen"
       }
     },
     {
@@ -1055,6 +1055,14 @@
         "en": "Benchmark rates chart",
         "fr": "Graphique des taux de référence",
         "de": "Diagramm Referenzzinssätze"
+      }
+    },
+    {
+      "key": "BUY_SELL_BUTTON",
+      "text": {
+        "en": "Buy / Sell",
+        "fr": "Achat / Vente",
+        "de": "Kauf / Verkauf"
       }
     },
     {
@@ -3367,6 +3375,22 @@
         "en": "World",
         "fr": "Monde",
         "de": "Welt"
+      }
+    },
+    {
+      "key": "MAP4_NOT_INSTALLED_TEST_MESSAGE",
+      "text": {
+        "en": "This is a test environment and the MAP4 app has not been detected on this device. In production, the App Store page would open.",
+        "fr": "Il s'agit d'un environnement de test et l'application MAP4 n'a pas été détectée sur cet appareil. En production, la page de l'App Store s'ouvrirait.",
+        "de": "Dies ist eine Testumgebung und die MAP4-App wurde auf diesem Gerät nicht erkannt. In der Produktion würde die App-Store-Seite geöffnet."
+      }
+    },
+    {
+      "key": "MAP4_NOT_INSTALLED_TEST_TITLE",
+      "text": {
+        "en": "Test environment",
+        "fr": "Environnement de test",
+        "de": "Testumgebung"
       }
     },
     {
